@@ -1,0 +1,103 @@
+---
+  title: "UQ R Workshops 2025"
+---
+
+Dear Participants,
+
+We are looking forward to seeing you at the UQ R Workshops. Regardless of what day(s) you are attending, the workshop will be in [ModWest (11A) Room 130](https://uqmaps.app.uq.edu.au/st-lucia/search/modwest/location/2828){target="_blank"}. The Workshop will run from 9-4 pm -- please arrive at least 10 minutes early so that we can start on time and help with any last-minute installation issues. We will have a 15 minute Morning/Afternoon Tea break and Lunch will be from 12:30-1:30 pm.
+
+There are lots of places to [eat on campus](https://maps.uq.edu.au/?zoom=15.83116585318987&campusId=406&lat=-27.49702025886726&lng=153.01332705000004&zLevel=1&category=31754){target="_blank"}.
+
+**PLEASE READ CAREFULLY** In order to take full advantage of the workshop, you will need to have a laptop, have the ability to connect to a public wifi network (details below), have the latest versions of R and RStudio installed on your machine, have successfully installed all the required packages (see below). If you are using a work/company laptop where access is restricted, please double check these conditions with your IT department.
+
+Please come back here regularly before the workshop. If there are any changes we will put them here and highlight them.
+
+## 1. Laptops
+
+Bring a laptop, if at all possible. Otherwise, you will need to work in pairs (which is fun too!)
+
+## 2. Installing R
+
+It is straightforward to install R on your machine. **Please make sure you have the latest version (currently R 4.3.2)**. Also, you will need to have install permissions on your laptop, otherwise get your IT support to help.
+
+### Follow these steps:
+
+1.  Go to the [CRAN (Comprehensive R Archive Network) R website](http://cran.r-project.org){target="_blank"}. If you type 'r' into Google it is the first entry, then choose CRAN under Download, Packages on the left hand side, and then choose a mirror site in Australia.\
+2.  Choose to download R for Linux, Mac or Windows.\
+3.  For Windows users, just install 'base' and this will link you to the download file.\
+4.  For Mac users, choose the version relevant to your Operating System.\
+5.  If you are a Linux user, you know what to do!
+
+\## 3. Installing RStudio
+
+We will use RStudio in this Workshop, a free front-end to R for Windows, Mac or Linux (i.e., R is working in the background). It makes working with R easier, more productive, and organised, especially for new users. There are other front-ends, but RStudio is the most popular. **Please make sure you have the latest version (currently 2023.12)**.
+
+Go to the [RStudio website](https://posit.co/download/rstudio-desktop/){target="_blank"} and choose Install RStudio. It should autodetect your machine type, but if it doesn't, you can choose the download for the machine type you have down the bottom of the page.
+
+## 4. Install the packages you need for the Workshop
+
+Depending on what day you attend, there will be different package requirements. Please carefully read the instructions below and run the code corresponding to the day(s) of the workshop you are attending.
+
+In RStudio, go to the Console. This should be bottom left window, with the command line indicated by "\>". Paste in the following code and hit Return:
+
+#### **Day 1 - Introduction to R and tidyverse**
+
+```{r eval=FALSE}
+install.packages(c("tidyverse", "ggthemes", "patchwork"))
+```
+
+#### **Day 2 - Linear modelling with R (Intermediate level)**
+
+[**UPDATED ON SUNDAY TO INCLUDE `dagitty` and `ggdag`**]{style="color:red;"}
+
+```{r eval=FALSE}
+install.packages(c("tidyverse", "GGally", "visreg", "gglm", "MASSExtra", "boot", "marginaleffects", "ggeffects", "sjPlot", "ggfortify", "patchwork", "dagitty", "ggdag"))
+```
+
+#### **Day 3 - Mixed and additive modelling with R (Advanced level)**
+
+[**UPDATED ON FRIDAY TO INCLUDE `lmerTest` and `performance`**]{style="color:red;"}\
+[**UPDATED ON MONDAY TO INCLUDE `MuMIn` and `see`**]{style="color:red;"}
+
+```{r eval=FALSE}
+install.packages(c("mgcv", "lme4", "visreg", "DHARMa", "patchwork", "marginaleffects", "tidyverse", "gamm4", "photobiology", "lattice", "RColorBrewer", "ADER", "gratia", "lmerTest", "performance", "MuMIn", "see"))
+```
+
+#### **Day 4 - Data wrangling in R: tidying your data (Intermediate/Advanced level)**
+
+[**UPDATED ON FRIDAY TO INCLUDE `rlang`**]{style="color:red;"}
+
+```{r eval=FALSE}
+install.packages(c("tidyverse", "gridExtra", "furrr", "tictoc", "terra", "SPEI", "reprex", "rlang"))
+```
+
+#### **Day 5 - Mapping and spatial analysis in R (Intermediate level)**
+
+```{r eval=FALSE}
+install.packages(c("tidyverse", "sf", "tmap", "terra", "stars", "statmod", "rnaturalearth"))
+```
+
+After running the install.packages function, look at the log it produces -- everything should say it installed OK (if asked whether to install from source, just hit "n"). If you have installation problems, please contact us and we will try and help you (include all relevant error messages).
+
+Once you have successfully installed all the required packages for your days, please ensure all your other packages are up to date. This is really important as the functionality of all packages changes and we have written the code for this workshop using the latest version of **R**, **RStudio** and installed packages. You can ensure everything is up to date by running the following code.
+
+```{r eval=FALSE}
+update.packages(ask = FALSE)
+```
+
+## 5. Connecting to WiFi
+
+Your experience at the workshop will be greatly enhanced (and in some cases required) if you can access the internet. There are a range of options available, but if your laptop is centrally managed by your employer, please check with your IT department before attending the workshop.
+
+-   For UQ Staff/Students you can access the WiFi as you normally would on campus.\
+-   For other university/research affiliated staff/students, [eduroam](https://www.eduroam.edu.au/eduroam-for-users/){target="_blank"} will be available. Please ensure you know how to connect and considering testing the connection on your home campus.\
+-   For everyone else, UQ runs a Guest WiFi network. You can connect to the network by signing in with your Gmail, Facebook or LinkedIn accounts. You can access further information [here](https://my.uq.edu.au/information-and-services/information-technology/internet-and-wifi/uq-guest-wifi){target="_blank"}.\
+-   Alternatively you can hotspot with your phone.
+
+If you have and questions or concerns, please don't hesitate to reach out to us.
+
+We look forward to seeing you there!
+
+Regards
+
+Ant, Dave, Christina and Jase

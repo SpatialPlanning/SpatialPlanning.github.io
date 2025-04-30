@@ -1,0 +1,41 @@
+---
+title: "Publications"
+---
+
+Below is a selection of our recent conservation-related publications. Our team is in bold.
+
+**Buenafe KCV**, **Dunn DC**, Metaxas A, **Everett, JD**, Schoeman DS, **Pidd A**, Brito-Morales I, Hanson JO, Kim SW, Scales KL, **Richardson AJ** (2025) Current approaches and future opportunities in designing climate-smart protected areas. _Nature Reviews in Biology_ [https://doi.org/10.1038/s44358-025-00041-0](https://doi.org/10.1038/s44358-025-00041-0)
+
+**Richardson AJ**, **Buenafe KCV** (2025) A deep dive into climate connectivity. News & Views. _Nature Climate Change_. 2 pp. [https://doi.org/10.1038/s41558-025-02253-w](https://doi.org/10.1038/s41558-025-02253-w)
+
+Giakoumi S, **Richardson AJ**, Doxa A, Moro S, Andrello M, Hanson JO, Hermoso V, Mazor T, McGowan J, Kujala H, Law E, Álvarez-Romero JG, Magris RA, Gissi E, Arafeh-Dalmau N, Metaxas A, Virtanen E, Ban NC, Runya RM, **Dunn DC**, Fraschetti S, Galsparsoro I, Smith RJ, Bastardie F, Stelzenmüller V, Possingham HP, Katsenevakis S (2024) Advances in systematic conservation planning concepts, tools and methods. _Trends in Ecology and Evolution_.16 pp. [https://doi.org/10.1016/j.tree.2024.12.002](https://doi.org/10.1016/j.tree.2024.12.002)
+
+**Fleury AG**, O’Hara CC, Butt N, **Restrepo J**, Halpern BS, Klein CJ, Wenger A, Kuempel CD, Gaynor KM, **Bentley LK**, **Richardson AJ**, **Dunn DC** (in press, 13/6/2024) Spatial and life history variation in a trait-based vulnerability and impact model. _PLoS One_ 19(6). e0305950. 16 pp. [https://doi.org/10.1371/journal.pone.0305950](https://doi.org/10.1371/journal.pone.0305950)
+
+**Blanluet A**, Game E, **Dunn DC**, **Everett JD**, Lombard AT, **Richardson AJ** (2024). Evaluating ecological benefits of oceanic protected areas. _Trends in Ecology and Evolution_ 39(2): 175-187. [https://doi.org/10.1016/j.tree.2023.09.003](https://doi.org/10.1016/j.tree.2023.09.003)
+
+**Fourchault L**, **Dunn DC**, **Everett JD**, Hanson JO, **Buenafe KCV**, **Neubert S**, **Dabalà A**, **Richardson AJ** (2024) Generating affordable protection of high seas biodiversity through cross-sectoral spatial planning. _One Earth_ 7: 253-264. [https://doi.org/10.1016/j.oneear.2023.12.006](https://doi.org/10.1016/j.oneear.2023.12.006)
+
+**Dabalà A**, Dahdouh-Guebas F, **Dunn DC**, **Everett JD**, Lovelock CE, Hanson JO, **Buenafe KCV**, **Neubert S**, **Richardson AJ** (2023) Priority areas to protect mangroves and maximise ecosystem services. _Nature Communications_. [https://doi.org/10.1038/s41467-023-41333-3](https://doi.org/10.1038/s41467-023-41333-3)
+
+**Buenafe KCV**, **Dunn DC**, **Everett JD**, Brito-Morales I, Schoeman DS, Hanson JO, **Dabalà A**, **Neubert S**, **Richardson AJ** (2023) A metric-based framework for climate-smart spatial planning. _Ecological Applications_. [https://doi.org/10.1002/eap.2852](https://doi.org/10.1002/eap.2852)
+
+Kot, CY, S.E. DeLand, A.-L. Harrison, A. Alberini, H. Blondin, M. Chory, J. Cleary, … **D.C. Dunn**, P.N. Halpin (2023) Synthesizing connectivity information from migratory marine species for area-based management. _Biological Conservation_. 110142. [https://doi.org/10.1016/j.biocon.2023.110142](https://doi.org/10.1016/j.biocon.2023.110142)
+
+Schoeman DS, Sen-Gupta A, Harrison CS, **Everett JD**, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, **Richardson AJ** (2023). Demystifying global climate models for use in the life sciences. _Trends in Ecology and Evolution._ [https://doi.org/10.1016/j.tree.2023.04.005](https://doi.org/10.1016/j.tree.2023.04.005)
+
+Brito-Morales I, Schoeman DS, Klein C, **Dunn DC**, **Everett JD**, García Molinos, Burrows MT, Dominguez RM, Possingham H, **Richardson AJ** (2022) Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas. _Nature Climate Change_ 12: 402-407. [https://doi.org/10.1038/s41558-022-01323-7](https://doi.org/10.1038/s41558-022-01323-7)
+
+Cinner, J.E., Thiault, L., Caldwell, I., Ben, J., Blanchard, J., Diedrich, A., Eddy, T., Gurney, G., Heneghan, R., Jagermeyer, J., Jiddawi, N., Kuange, J., Lahari, R., Mukminin, A., Novaglio, C., Raberisoa, A., Wamukota, A., **Everett, J.D.**, ... Richard Pollnac (2022) The potential impacts of climate change on agriculture and fisheries production in 72 tropical coastal communities. _Nature Communications_. [https://doi.org/10.1038/s41467-022-30991-4](https://doi.org/10.1038/s41467-022-30991-4)
+
+Kot, C.Y., S. Åkesson, J. Alfaro-Shigueto, D. F. Amorocho Llanos, M. Antonopoulou … **D.C. Dunn**, et al. (2022) Network analysis of sea turtle movements and connectivity: a tool for conservation prioritization. _Diversity & Distributions_. 28(4):810-829. [https://doi.org/10.1111/ddi.13485](https://doi.org/10.1111/ddi.13485)
+
+Sullivan-Stack, J, O. Aburto-Oropeza, C.M. Brooks, R.B. Cabral, J.E. Caselle, F. Chan, J.E. Duffy, **D.C. Dunn**, et al. (2022) A Scientific Synthesis of Marine Protected Areas in the United States: Status and Recommendations. _Frontiers in Marine Science_. 9. [https://doi.org/10.3389/fmars.2022.849927](https://doi.org/10.3389/fmars.2022.849927)
+
+Roberson, L., H. Beyer, C. O'Hara, J. Watson, **D.C. Dunn,** B. Halpern, C. Klein, et al. (2021) Multinational coordination required for conservation of over 90% of marine species. _Global Change Biology_. 27 (23):6206-6216
+
+Arafeh Dalmau N, Brito-Morales I, Schoeman DS, Klein CJ, **Richardson AJ**, Possingham H (2021) Incorporating climate velocity in marine spatial prioritization. _Methods in Ecology and Evolution_ 12: 1969-1983. [https://doi.org/10.1111/2041-210X.13675](https://doi.org/10.1111/2041-210X.13675)
+
+Brito-Morales I, Schoeman DS, Burrows MT, Klein CJ, Kesner-Reyes K, **Richardson AJ** (2020) Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming. _Nature Climate Change_ 10: 576-581. [https://doi.org/10.1038/s41558-020-0773-5](https://doi.org/10.1038/s41558-020-0773-5)
+
+**Brito-Morales I**, Molinos JG, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JE, Wenger AS, **Richardson AJ** (2018) Climate velocity can inform conservation in a warming world. _Trends in Ecology and Evolution_ 33(6): 441-457. [https://doi.org/10.1016/j.tree.2018.03.009](https://doi.org/10.1016/j.tree.2018.03.009)

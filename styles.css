@@ -1,0 +1,71 @@
+/* css styles */
+
+h1 {
+  font-size: 1.5em; /* Adjust this value as needed */
+}
+
+h2 {
+  font-size: 1.3em; /* Adjust this value as needed */
+}
+
+h3 {
+  font-size: 1.1em; /* Adjust this value as needed */
+}
+
+.blockquote {
+  background-color:  #b2dcea;
+}
+
+.cell-output {
+  background-color: WhiteSmoke;
+  border-radius: 4px;
+}
+
+#scroll-container {
+  width: 90%;
+  margin: auto;
+  border: 0px solid black;
+  border-radius: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color:  #e5f3f8;
+}
+
+#scroll-text {
+  width: fit-content;
+  height: auto;
+  margin:0; 
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 40s linear 1s infinite;
+  -webkit-animation: my-animation 40s linear 1s infinite;
+  animation: my-animation 40s linear 1s infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(30%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(30%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+    transform: translateX(30%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+

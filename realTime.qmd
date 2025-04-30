@@ -1,0 +1,26 @@
+---
+title: "Real-time spatial planning"
+---
+# Why shinyplanr?
+
+The shinyplanr app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.
+
+Built on robust science and the proven R prioritizr engine, shinyplanr helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed.
+
+# What makes shinyplanr different?
+
+**Real-time planning**: Most scenarios run in seconds, allowing stakeholders to quickly test options and iterate without delays.
+
+**Transparent, user-driven decisions**: Users control targets, costs, and constraints — that means more learning, more trust, and faster buy-in.
+
+**Faster consensus, fewer workshops**: Stakeholders do not need to agree upfront. Instead, they explore plans independently, reducing the need for multiple expert-led workshops.
+
+**Clear trade-offs**: See exactly how different features, zones, and costs shape a plan. Understand where the compromises are — and who is affected.
+
+**Insights that matter**: The shinyplanr app highlights which features drive solutions. Often, only a few constraints determine the outcome — and this becomes clear through direct exploration.
+
+**Flexible objectives**: Unlike tools with one fixed goal, shinyplanr supports multiple planning questions. Want to see what 30% protection gets you? You can.
+
+**Rich functionality**: Built in R with prioritizr, shinyplanr offers all the power of Marxan — and then some.
+
+**Scalable and customisable**: From tiny areas such as Kosrae in Federated States of Micronesia, to vast regions such as the Weddell Sea, shinyplanr adapts to your geography, language, and data (see shinyplanr tabs).

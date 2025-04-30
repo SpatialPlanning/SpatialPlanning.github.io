@@ -1,0 +1,12 @@
+---
+title: "Contact Us"
+---
+
+If you would like to be notified when further details of the upcoming workshops are released please join our mailing list. We will only send a couple of emails per year to advertise when the upcoming workshops have been released. This website will remain our main communication tool.
+
+If you have questions now, feel free to email our team at UQ's Centre for Biodiversity and Conservation Science (CBCS): <a href="mailto:cbcs-workshops@uq.edu.au">cbcs-workshops@uq.edu.au</a>.
+
+**Join the mailing list to get notified of upcoming workshops**
+```{=html}
+<iframe width="100%", height = "800px", src="https://forms.gle/8oZcxPzCAUpQQMRA7" title="Join our R Workshops Mailing List"></iframe>
+```
