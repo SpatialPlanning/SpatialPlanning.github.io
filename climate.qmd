@@ -4,7 +4,7 @@
 
 ## Climate-smart tools
 
-![Bridging the gap between the advances of climate-change ecology and on-the-ground climate-smart conservation planning.](images/Climate3.png){width=60% .lightbox .float-right}
+![Bridging the gap between the advances of climate-change ecology and on-the-ground climate-smart conservation planning (Buenafe et al. 2025).](images/Climate3.png){width=60% .lightbox .float-right}
 Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.
 
 We have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see [Publications](Publications.html) – Buenafe et al. (2025); Buenafe et al. (2023); Brito-Morales et al. (2022); Arafeh Dalmau et al. (2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app.
