@@ -6,18 +6,12 @@ title: ""
 
 ### Tuna spawning areas
 
-<a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/" target="_blank">
-  <img src="images/LarvalTuna.png" style="float: right; margin-left: 10px; width: 300px">
-</a>
-
+![Larval Tuna HotSpots](images/LarvalTuna.png){width=40% .lightbox group="shiny" .float-left}
 The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a [Shiny App](https://mathmarecol.shinyapps.io/LarvalHotSpots/) to allow users to interrogate the distribution models of spawning habitat .
 
 ### Oceanographic data analysis
 
-<a href="https://shiny.csiro.au/BioOceanObserver/" target="_blank">
-  <img src="images/BioOceanObserver.png" style="float: left; margin-right: 10px; width: 300px">
-</a>
-
+![Biological Ocean Observer](images/BioOceanObserver.png){width=40% .lightbox group="shiny" .float-left}
 The [Biological Ocean Observer](https://shiny.csiro.au/BioOceanObserver/) integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.
 
 <!-- ## Visualising global zooplankton biomass data -->

@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -172,13 +175,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="we-develop-science-based-shiny-tools">We develop science-based Shiny tools</h2>
 <section id="tuna-spawning-areas" class="level3">
 <h3 class="anchored" data-anchor-id="tuna-spawning-areas">Tuna spawning areas</h3>
-<p><a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/" target="_blank"> <img src="images/LarvalTuna.png" style="float: right; margin-left: 10px; width: 300px"> </a></p>
-<p>The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a <a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/">Shiny App</a> to allow users to interrogate the distribution models of spawning habitat .</p>
+<p><a href="images/LarvalTuna.png" class="lightbox" data-gallery="shiny" title="Larval Tuna HotSpots"><img src="images/LarvalTuna.png" class="float-left img-fluid" style="width:40.0%" alt="Larval Tuna HotSpots"></a> The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a <a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/">Shiny App</a> to allow users to interrogate the distribution models of spawning habitat .</p>
 </section>
 <section id="oceanographic-data-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="oceanographic-data-analysis">Oceanographic data analysis</h3>
-<p><a href="https://shiny.csiro.au/BioOceanObserver/" target="_blank"> <img src="images/BioOceanObserver.png" style="float: left; margin-right: 10px; width: 300px"> </a></p>
-<p>The <a href="https://shiny.csiro.au/BioOceanObserver/">Biological Ocean Observer</a> integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.</p>
+<p><a href="images/BioOceanObserver.png" class="lightbox" data-gallery="shiny" title="Biological Ocean Observer"><img src="images/BioOceanObserver.png" class="float-left img-fluid" style="width:40.0%" alt="Biological Ocean Observer"></a> The <a href="https://shiny.csiro.au/BioOceanObserver/">Biological Ocean Observer</a> integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.</p>
 <!-- ## Visualising global zooplankton biomass data -->
 <!-- We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/). -->
 
@@ -628,6 +629,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
