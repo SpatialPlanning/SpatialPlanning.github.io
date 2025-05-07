@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Spatial Planning Team @ UQ"
+  title: "Spatial Planning @ UQ"
   navbar:
     left:
       - text: Home
