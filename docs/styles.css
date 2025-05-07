@@ -1,5 +1,40 @@
 /* css styles */
 
+
+.right-float-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width * 100) */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Optional: remove iframe border */
+}
+
+
+.float-right {
+  float: right;
+  margin-left: 10px; /* Add some space to the right */
+}
+
+.float-left {
+  float: left;
+  margin-right: 10px; /* Add some space to the right */
+}
+
 h1 {
   font-size: 1.5em; /* Adjust this value as needed */
 }

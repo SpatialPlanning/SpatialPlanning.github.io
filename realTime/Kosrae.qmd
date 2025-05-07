@@ -1,0 +1,14 @@
+---
+title: ""
+---
+
+## shinyplanr in Kosrae and Vanuatu
+
+![](images/WaittUQ.jpg){.float-right .lightbox width=40%}
+
+For the past two years, we have been working with the [Waitt Institute](https://www.waittinstitute.org) as part of the [Blue Prosperity Coalition](https://www.blueprosperity.org). The Waitt Institute partners with governments and communities to develop sustainable, science-based spatial plans that balance conservation, livelihoods, and cultural values. Together, we have rapidly developed **_shinyplanr_** and deployed it for use in target island states such as Kosrae in the Federated States of Micronesia, a small island state (195 km2). **_shinyplanr_** is currently being used to engage stakeholders in Kosrae, and help to teach them about the spatial planning process. You can [read more about our ongoing collaboration](https://www.blueprosperity.org/post/climate-smart-workshop).
+
+<!-- Show screenshots of Kosrae app -->
+
+<!-- Show screenshots of Vanuatu app -->
+

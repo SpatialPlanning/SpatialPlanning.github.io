@@ -32,7 +32,7 @@ Kot, C.Y., S. Åkesson, J. Alfaro-Shigueto, D. F. Amorocho Llanos, M. Antonopoul
 
 Sullivan-Stack, J, O. Aburto-Oropeza, C.M. Brooks, R.B. Cabral, J.E. Caselle, F. Chan, J.E. Duffy, **D.C. Dunn**, et al. (2022) A Scientific Synthesis of Marine Protected Areas in the United States: Status and Recommendations. _Frontiers in Marine Science_. 9. [https://doi.org/10.3389/fmars.2022.849927](https://doi.org/10.3389/fmars.2022.849927)
 
-Roberson, L., H. Beyer, C. O'Hara, J. Watson, **D.C. Dunn,** B. Halpern, C. Klein, et al. (2021) Multinational coordination required for conservation of over 90% of marine species. _Global Change Biology_. 27 (23):6206-6216
+Roberson, L., H. Beyer, C. O'Hara, J. Watson, **D.C. Dunn,** B. Halpern, C. Klein, et al. (2021) Multinational coordination required for conservation of over 90% of marine species. _Global Change Biology_. 27 (23):6206-6216 [https://doi.org/10.1111/gcb.15844](https://doi.org/10.1111/gcb.15844)
 
 Arafeh Dalmau N, Brito-Morales I, Schoeman DS, Klein CJ, **Richardson AJ**, Possingham H (2021) Incorporating climate velocity in marine spatial prioritization. _Methods in Ecology and Evolution_ 12: 1969-1983. [https://doi.org/10.1111/2041-210X.13675](https://doi.org/10.1111/2041-210X.13675)
 

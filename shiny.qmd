@@ -1,13 +1,24 @@
 ---
-title: "Developing other shiny tools"
+title: ""
 ---
 
-## App for tuna spawning areas
+## We develop science-based Shiny tools
 
-The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a shiny app to allow users to interrogate the distribution models of spawning habitat (https://mathmarecol.shinyapps.io/LarvalHotSpots/).
+### Tuna spawning areas
 
-## App for oceanographic data analysis
-The Biological Ocean Observer (BOO) integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate (https://shiny.csiro.au/BioOceanObserver/).
+<a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/" target="_blank">
+  <img src="images/LarvalTuna.png" style="float: right; margin-left: 10px; width: 300px">
+</a>
 
-## App for visualising global zooplankton biomass data
-We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/).
+The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a [Shiny App](https://mathmarecol.shinyapps.io/LarvalHotSpots/) to allow users to interrogate the distribution models of spawning habitat .
+
+### Oceanographic data analysis
+
+<a href="https://shiny.csiro.au/BioOceanObserver/" target="_blank">
+  <img src="images/BioOceanObserver.png" style="float: left; margin-right: 10px; width: 300px">
+</a>
+
+The [Biological Ocean Observer](https://shiny.csiro.au/BioOceanObserver/) integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.
+
+<!-- ## Visualising global zooplankton biomass data -->
+<!-- We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/). -->

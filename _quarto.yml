@@ -3,53 +3,46 @@ project:
   output-dir: docs
 
 website:
-  # favicon: "HexSticker/logo_LR.png"
-  # announcement:
-  #   icon: info-circle
-  #   dismissable: true
-  #   content: "**Register for our upcoming Winter 2025 Workshops**. Register [here](https://payments.uq.edu.au/CBCS_R_workshop) or see below for further information about dates and topics covered."
-  #   type: warning
-  #   position: below-navbar
-  # announcement: 
-  #   icon: info-circle
-  #   dismissable: false
-  #   content: "**NOTE: We are having some issues with the registration portal. It will be open again shortly. Please check back regularly if you still want to register. There is still time and space!**" 
-  #   type: danger
-  #   position: below-navbar
-    
-  # page-navigation: true
   title: "Spatial Planning Team @ UQ"
-  # sidebar:
-    # logo: "HexSticker/logo_LR.png"
-    # pinned: true
-    # align: center
-    # tools:
-    # - icon: globe
-    #   href: https://openscapes.org
-    #   text: "Openscapes.org"
-    # - icon: github
-    #   href: https://github.com/openscapes/quarto-website-tutorial
-    #   text: "Quarto website tutorial"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: realTime.qmd
-        text: Real-time Planning
-      - href: spatialPlanning.qmd
-        text: Planning Solutions
-      - href: climate.qmd
-        text: Climate-smart Tools
-      - href: shiny.qmd
-        text: Our Shiny Tools
-      - href: publications.qmd
-        text: Publications
-      # - href: contact.qmd
-        # text: Contact
+      - text: Home
+        href: index.qmd
+      - text: Real-time Planning
+        menu:
+          - text: About _shinyplanr_
+            href: realTime/shinyplanr.qmd
+          - text: -----------
+          - text: "**_shinyplanr_ Deployments**"
+          - text: -----------
+          - text: Weddell Sea
+            href: realTime/WeddellSea.qmd
+          - text: Kosrae
+            href: realTime/Kosrae.qmd
+      - text: Climate-smart Tools
+        href: climate.qmd
+      - text: Other Shiny Tools
+        href: shiny.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Our Services
+        href: services.qmd
+        
+    # your social media handles
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:a.richardson1@uq.edu.au"
+      - icon: github
+        href: https://github.com/SpatialPlanning
+        target: _blank
+
       
   page-footer:
     center: "This page is built with [Quarto](https://quarto.org/)."
     left:  "&copy; Website Dr Jason D. Everett 2025"
+    right: |
+      <span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span>
 
 resources: 
     - "data/*"
@@ -57,8 +50,8 @@ resources:
 format:
   html:
     # theme: cosmo
-    # theme: spacelab
-    theme: yeti
+    theme: spacelab
+    # theme: yeti
     css: styles.css
     toc: true
     toc-depth: 2
@@ -70,6 +63,6 @@ format:
     link-external-icon: true
 
 editor: source
-
+page-layout: full
 lightbox: true
 

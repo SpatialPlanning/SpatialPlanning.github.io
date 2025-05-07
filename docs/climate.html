@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Climate-smart tools – Spatial Planning Team @ UQ</title>
+<title>climate – Spatial Planning Team @ UQ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -92,25 +95,55 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./realTime.html"> 
-<span class="menu-text">Real-time Planning</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Real-time Planning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
+        <li>
+    <a class="dropdown-item" href="./realTime/shinyplanr.html">
+ <span class="dropdown-text">About <em>shinyplanr</em></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./spatialPlanning.html"> 
-<span class="menu-text">Planning Solutions</span></a>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./realTime/WeddellSea.html">
+ <span class="dropdown-text">Weddell Sea</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./realTime/Kosrae.html">
+ <span class="dropdown-text">Kosrae</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./climate.html" aria-current="page"> 
 <span class="menu-text">Climate-smart Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./shiny.html"> 
-<span class="menu-text">Our Shiny Tools</span></a>
+<span class="menu-text">Other Shiny Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Our Services</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SpatialPlanning" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,40 +153,37 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#climate-smart-tools" id="toc-climate-smart-tools" class="nav-link active" data-scroll-target="#climate-smart-tools">Climate-smart tools</a></li>
+  <li><a href="#real-time-climate-vulnerability" id="toc-real-time-climate-vulnerability" class="nav-link" data-scroll-target="#real-time-climate-vulnerability">Real-time Climate Vulnerability</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Climate-smart tools</h1>
-</div>
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.</p>
-<p>We have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see Publications – Buenafe et al.&nbsp;(2025); Buenafe et al.&nbsp;(2023); Brito-Morales et al.&nbsp;(2022); Arafeh Dalmau et al.&nbsp;(2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app.</p>
+<section id="climate-smart-tools" class="level2">
+<h2 class="anchored" data-anchor-id="climate-smart-tools">Climate-smart tools</h2>
+<p><a href="images/Climate3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Bridging the gap between the advances of climate-change ecology and on-the-ground climate-smart conservation planning."><img src="images/Climate3.png" class="float-right img-fluid" style="width:60.0%" alt="Bridging the gap between the advances of climate-change ecology and on-the-ground climate-smart conservation planning."></a> Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.</p>
+<p>We have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see <a href="Publications.html">Publications</a> – Buenafe et al.&nbsp;(2025); Buenafe et al.&nbsp;(2023); Brito-Morales et al.&nbsp;(2022); Arafeh Dalmau et al.&nbsp;(2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app.</p>
+</section>
+<section id="real-time-climate-vulnerability" class="level2">
+<h2 class="anchored" data-anchor-id="real-time-climate-vulnerability">Real-time Climate Vulnerability</h2>
+<p><a href="images/ClimateApp.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/ClimateApp.png" class="float-left img-fluid" style="width:40.0%"></a></p>
 <p>We can also develop an online real-time app for assessing the climate vulnerability of protected areas in a region, in comparison to areas outside. This app can also compare the climate vulnerability of particular species based on where the region is within their global distribution.</p>
-<!-- An example is below {show mock-up app}. -->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -593,10 +623,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

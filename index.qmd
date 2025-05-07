@@ -1,22 +1,60 @@
 ---
 title: "Challenges in spatial planning"
+lightbox: true
 ---
 
-Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the Global Biodiversity Framework—expanding spatial planning (Target 1), restoring ecosystems (Target 2), and conserving biodiversity (Target 3). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs.
+::: columns
+::: {.column width="79%"}
+Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the [Global Biodiversity Framework](https://www.cbd.int/gbf) — expanding spatial planning ([Target 1](https://www.cbd.int/gbf/targets/1)), restoring ecosystems ([Target 2](https://www.cbd.int/gbf/targets/2)), and conserving biodiversity ([Target 3](https://www.cbd.int/gbf/targets/3)). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs.
+:::
 
-## Who we are
+::: {.column width="7%"}
+![](images/target-01.png){.lightbox group="GBF"}
+:::
+::: {.column width="6%"}
+![](images/target-02.png){.lightbox group="GBF"}
+:::
+::: {.column width="7%"}
+![](images/target-03.png){.lightbox group="GBF"}
+:::
 
-We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge tools tailored to local contexts. We co-develop planning solutions with partners, continually improving our open-source platform shinyplanr based on user feedback and emerging science.
+:::
+
+
+
+## Our mission
+
+We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge research-driven tools tailored to local contexts. 
+
+We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform [**_shinyplanr_**](realTime/shinyplanr.html) based on user feedback and emerging science.
 
 ## Our expertise
-- Prof. Anthony J. Richardson – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science.
 
-- A/Prof. Daniel Dunn – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.
+::: columns
+::: {.column width="15%"}
+<img src="images/Richardson_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+[Prof. Anthony J. Richardson](https://mathmarecol.github.io/people/#professor-anthony-j.-richardson) – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science. He has authored over 250 scientific papers, been cited more than 35,000 times, and has made significant contributions to our understanding of climate impacts on marine ecosystems—from plankton to fish. His research has also helped shape national and international strategies for marine spatial planning, biodiversity conservation and ecosystem-based management.
+:::
+:::
 
-- Dr Jason Everett – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems.
+::: columns
+::: {.column width="15%"}
+<img src="images/Dunn_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+[A/Prof. Daniel Dunn](https://cbcs.centre.uq.edu.au/profile/3059/daniel-dunn) – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.
+:::
+:::
 
-## Advancing spatial planning for Biodiversity and climate resilience
-
-This website showcases our research-driven tools – particularly shinyplanr - and expertise for developing rapid, effective and inclusive spatial plans. We focus on co-designed solutions that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate.
+::: columns
+::: {.column width="15%"}
+<img src="images/Everett_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+[Dr Jason Everett](https://jaseeverett.github.io) – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems. He has spent 15+ years working on understanding how oceanographic processes structure global pelagic food webs, designing climate-smart marine protected areas and investigating the impact of climate-change on marine ecosystem function. He leads the development of R-packages and Shiny visualisation tools that are used to inform marine management.
+:::
+:::
 
 
