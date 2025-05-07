@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Developing other shiny tools – Spatial Planning Team @ UQ</title>
+<title>shiny – Spatial Planning Team @ UQ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,25 +92,55 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./realTime.html"> 
-<span class="menu-text">Real-time Planning</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Real-time Planning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
+        <li>
+    <a class="dropdown-item" href="./realTime/shinyplanr.html">
+ <span class="dropdown-text">About <em>shinyplanr</em></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./spatialPlanning.html"> 
-<span class="menu-text">Planning Solutions</span></a>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./realTime/WeddellSea.html">
+ <span class="dropdown-text">Weddell Sea</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./realTime/Kosrae.html">
+ <span class="dropdown-text">Kosrae</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./climate.html"> 
 <span class="menu-text">Climate-smart Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./shiny.html" aria-current="page"> 
-<span class="menu-text">Our Shiny Tools</span></a>
+<span class="menu-text">Other Shiny Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Our Services</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SpatialPlanning" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -128,47 +158,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#app-for-tuna-spawning-areas" id="toc-app-for-tuna-spawning-areas" class="nav-link active" data-scroll-target="#app-for-tuna-spawning-areas">App for tuna spawning areas</a></li>
-  <li><a href="#app-for-oceanographic-data-analysis" id="toc-app-for-oceanographic-data-analysis" class="nav-link" data-scroll-target="#app-for-oceanographic-data-analysis">App for oceanographic data analysis</a></li>
-  <li><a href="#app-for-visualising-global-zooplankton-biomass-data" id="toc-app-for-visualising-global-zooplankton-biomass-data" class="nav-link" data-scroll-target="#app-for-visualising-global-zooplankton-biomass-data">App for visualising global zooplankton biomass data</a></li>
+  <li><a href="#we-develop-science-based-shiny-tools" id="toc-we-develop-science-based-shiny-tools" class="nav-link active" data-scroll-target="#we-develop-science-based-shiny-tools">We develop science-based Shiny tools</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Developing other shiny tools</h1>
-</div>
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="app-for-tuna-spawning-areas" class="level2">
-<h2 class="anchored" data-anchor-id="app-for-tuna-spawning-areas">App for tuna spawning areas</h2>
-<p>The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a shiny app to allow users to interrogate the distribution models of spawning habitat (https://mathmarecol.shinyapps.io/LarvalHotSpots/).</p>
+<section id="we-develop-science-based-shiny-tools" class="level2">
+<h2 class="anchored" data-anchor-id="we-develop-science-based-shiny-tools">We develop science-based Shiny tools</h2>
+<section id="tuna-spawning-areas" class="level3">
+<h3 class="anchored" data-anchor-id="tuna-spawning-areas">Tuna spawning areas</h3>
+<p><a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/" target="_blank"> <img src="images/LarvalTuna.png" style="float: right; margin-left: 10px; width: 300px"> </a></p>
+<p>The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a <a href="https://mathmarecol.shinyapps.io/LarvalHotSpots/">Shiny App</a> to allow users to interrogate the distribution models of spawning habitat .</p>
 </section>
-<section id="app-for-oceanographic-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="app-for-oceanographic-data-analysis">App for oceanographic data analysis</h2>
-<p>The Biological Ocean Observer (BOO) integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate (https://shiny.csiro.au/BioOceanObserver/).</p>
+<section id="oceanographic-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="oceanographic-data-analysis">Oceanographic data analysis</h3>
+<p><a href="https://shiny.csiro.au/BioOceanObserver/" target="_blank"> <img src="images/BioOceanObserver.png" style="float: left; margin-right: 10px; width: 300px"> </a></p>
+<p>The <a href="https://shiny.csiro.au/BioOceanObserver/">Biological Ocean Observer</a> integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.</p>
+<!-- ## Visualising global zooplankton biomass data -->
+<!-- We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/). -->
+
+
 </section>
-<section id="app-for-visualising-global-zooplankton-biomass-data" class="level2">
-<h2 class="anchored" data-anchor-id="app-for-visualising-global-zooplankton-biomass-data">App for visualising global zooplankton biomass data</h2>
-<p>We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/).</p>
-
-
 </section>
 
 </main> <!-- /main -->
@@ -609,8 +624,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
 

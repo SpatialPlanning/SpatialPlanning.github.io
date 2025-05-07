@@ -1,103 +1,5 @@
 [
   {
-    "objectID": "realTime.html",
-    "href": "realTime.html",
-    "title": "Real-time spatial planning",
-    "section": "",
-    "text": "Why shinyplanr?\nThe shinyplanr app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.\nBuilt on robust science and the proven R prioritizr engine, shinyplanr helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed.\n\n\nWhat makes shinyplanr different?\nReal-time planning: Most scenarios run in seconds, allowing stakeholders to quickly test options and iterate without delays.\nTransparent, user-driven decisions: Users control targets, costs, and constraints — that means more learning, more trust, and faster buy-in.\nFaster consensus, fewer workshops: Stakeholders do not need to agree upfront. Instead, they explore plans independently, reducing the need for multiple expert-led workshops.\nClear trade-offs: See exactly how different features, zones, and costs shape a plan. Understand where the compromises are — and who is affected.\nInsights that matter: The shinyplanr app highlights which features drive solutions. Often, only a few constraints determine the outcome — and this becomes clear through direct exploration.\nFlexible objectives: Unlike tools with one fixed goal, shinyplanr supports multiple planning questions. Want to see what 30% protection gets you? You can.\nRich functionality: Built in R with prioritizr, shinyplanr offers all the power of Marxan — and then some.\nScalable and customisable: From tiny areas such as Kosrae in Federated States of Micronesia, to vast regions such as the Weddell Sea, shinyplanr adapts to your geography, language, and data (see shinyplanr tabs)."
-  },
-  {
-    "objectID": "developingShiny.html",
-    "href": "developingShiny.html",
-    "title": "Instructions for R Workshops @ UQ 2025",
-    "section": "",
-    "text": "Dear Participants,\nWe are looking forward to seeing you at our next R Workshop @ UQ. The Workshop will run from 9-4 pm on campus at UQ. Instructions for software installation, room allocation and break times will be posted here closer to the date.\nIn the meantime, if you have and questions or concerns, please don’t hesitate to reach out to us at cbcs-workshops@uq.edu.au.\nWe look forward to meeting you soon.\nRegards\nAnt, Dave, Jase and Nick"
-  },
-  {
-    "objectID": "climate.html",
-    "href": "climate.html",
-    "title": "Climate-smart tools",
-    "section": "",
-    "text": "Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.\nWe have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see Publications – Buenafe et al. (2025); Buenafe et al. (2023); Brito-Morales et al. (2022); Arafeh Dalmau et al. (2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app.\nWe can also develop an online real-time app for assessing the climate vulnerability of protected areas in a region, in comparison to areas outside. This app can also compare the climate vulnerability of particular species based on where the region is within their global distribution."
-  },
-  {
-    "objectID": "shiny.html",
-    "href": "shiny.html",
-    "title": "Developing other shiny tools",
-    "section": "",
-    "text": "The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a shiny app to allow users to interrogate the distribution models of spawning habitat (https://mathmarecol.shinyapps.io/LarvalHotSpots/)."
-  },
-  {
-    "objectID": "shiny.html#app-for-tuna-spawning-areas",
-    "href": "shiny.html#app-for-tuna-spawning-areas",
-    "title": "Developing other shiny tools",
-    "section": "",
-    "text": "The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a shiny app to allow users to interrogate the distribution models of spawning habitat (https://mathmarecol.shinyapps.io/LarvalHotSpots/)."
-  },
-  {
-    "objectID": "shiny.html#app-for-oceanographic-data-analysis",
-    "href": "shiny.html#app-for-oceanographic-data-analysis",
-    "title": "Developing other shiny tools",
-    "section": "App for oceanographic data analysis",
-    "text": "App for oceanographic data analysis\nThe Biological Ocean Observer (BOO) integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate (https://shiny.csiro.au/BioOceanObserver/)."
-  },
-  {
-    "objectID": "shiny.html#app-for-visualising-global-zooplankton-biomass-data",
-    "href": "shiny.html#app-for-visualising-global-zooplankton-biomass-data",
-    "title": "Developing other shiny tools",
-    "section": "App for visualising global zooplankton biomass data",
-    "text": "App for visualising global zooplankton biomass data\nWe estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/)."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "If you would like to be notified when further details of the upcoming workshops are released please join our mailing list. We will only send a couple of emails per year to advertise when the upcoming workshops have been released. This website will remain our main communication tool.\nIf you have questions now, feel free to email our team at UQ’s Centre for Biodiversity and Conservation Science (CBCS): cbcs-workshops@uq.edu.au.\nJoin the mailing list to get notified of upcoming workshops"
-  },
-  {
-    "objectID": "spatialPlanning.html",
-    "href": "spatialPlanning.html",
-    "title": "Delivering planning solutions",
-    "section": "",
-    "text": "We design practical, science-based spatial plans that balance conservation, sustainable use, and climate resilience. Our team brings deep expertise in integrating biodiversity, ecosystem services, and human uses, while avoiding residual protection and supporting genuine stakeholder engagement.\nWe work with partners to:\n\nDefine planning needs\nProcess biodiversity and ecosystem service data\nDeploy customised, transparent shinyplanr apps for real-time use\nFacilitate inclusive stakeholder workshops\nDevelop and evaluate candidate spatial plans\n\nOur solutions incorporate:\n\nMultiple-use planning that balances ecological and economic priorities\nClimate-smart approaches that future-proof conservation under climate change\nEcosystem service mapping for carbon, coastal protection, and fisheries\n\nThese elements underpin our collaborative approach to delivering effective, equitable ocean planning. We are ready to partner with you."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Challenges in spatial planning",
-    "section": "",
-    "text": "Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the Global Biodiversity Framework—expanding spatial planning (Target 1), restoring ecosystems (Target 2), and conserving biodiversity (Target 3). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs."
-  },
-  {
-    "objectID": "index.html#who-we-are",
-    "href": "index.html#who-we-are",
-    "title": "Challenges in spatial planning",
-    "section": "Who we are",
-    "text": "Who we are\nWe are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge tools tailored to local contexts. We co-develop planning solutions with partners, continually improving our open-source platform shinyplanr based on user feedback and emerging science."
-  },
-  {
-    "objectID": "index.html#our-expertise",
-    "href": "index.html#our-expertise",
-    "title": "Challenges in spatial planning",
-    "section": "Our expertise",
-    "text": "Our expertise\n\nProf. Anthony J. Richardson – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science.\nA/Prof. Daniel Dunn – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.\nDr Jason Everett – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems."
-  },
-  {
-    "objectID": "index.html#advancing-spatial-planning-for-biodiversity-and-climate-resilience",
-    "href": "index.html#advancing-spatial-planning-for-biodiversity-and-climate-resilience",
-    "title": "Challenges in spatial planning",
-    "section": "Advancing spatial planning for Biodiversity and climate resilience",
-    "text": "Advancing spatial planning for Biodiversity and climate resilience\nThis website showcases our research-driven tools – particularly shinyplanr - and expertise for developing rapid, effective and inclusive spatial plans. We focus on co-designed solutions that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Below is a selection of our recent conservation-related publications. Our team is in bold.\nBuenafe KCV, Dunn DC, Metaxas A, Everett, JD, Schoeman DS, Pidd A, Brito-Morales I, Hanson JO, Kim SW, Scales KL, Richardson AJ (2025) Current approaches and future opportunities in designing climate-smart protected areas. Nature Reviews in Biology https://doi.org/10.1038/s44358-025-00041-0\nRichardson AJ, Buenafe KCV (2025) A deep dive into climate connectivity. News & Views. Nature Climate Change. 2 pp. https://doi.org/10.1038/s41558-025-02253-w\nGiakoumi S, Richardson AJ, Doxa A, Moro S, Andrello M, Hanson JO, Hermoso V, Mazor T, McGowan J, Kujala H, Law E, Álvarez-Romero JG, Magris RA, Gissi E, Arafeh-Dalmau N, Metaxas A, Virtanen E, Ban NC, Runya RM, Dunn DC, Fraschetti S, Galsparsoro I, Smith RJ, Bastardie F, Stelzenmüller V, Possingham HP, Katsenevakis S (2024) Advances in systematic conservation planning concepts, tools and methods. Trends in Ecology and Evolution.16 pp. https://doi.org/10.1016/j.tree.2024.12.002\nFleury AG, O’Hara CC, Butt N, Restrepo J, Halpern BS, Klein CJ, Wenger A, Kuempel CD, Gaynor KM, Bentley LK, Richardson AJ, Dunn DC (in press, 13/6/2024) Spatial and life history variation in a trait-based vulnerability and impact model. PLoS One 19(6). e0305950. 16 pp. https://doi.org/10.1371/journal.pone.0305950\nBlanluet A, Game E, Dunn DC, Everett JD, Lombard AT, Richardson AJ (2024). Evaluating ecological benefits of oceanic protected areas. Trends in Ecology and Evolution 39(2): 175-187. https://doi.org/10.1016/j.tree.2023.09.003\nFourchault L, Dunn DC, Everett JD, Hanson JO, Buenafe KCV, Neubert S, Dabalà A, Richardson AJ (2024) Generating affordable protection of high seas biodiversity through cross-sectoral spatial planning. One Earth 7: 253-264. https://doi.org/10.1016/j.oneear.2023.12.006\nDabalà A, Dahdouh-Guebas F, Dunn DC, Everett JD, Lovelock CE, Hanson JO, Buenafe KCV, Neubert S, Richardson AJ (2023) Priority areas to protect mangroves and maximise ecosystem services. Nature Communications. https://doi.org/10.1038/s41467-023-41333-3\nBuenafe KCV, Dunn DC, Everett JD, Brito-Morales I, Schoeman DS, Hanson JO, Dabalà A, Neubert S, Richardson AJ (2023) A metric-based framework for climate-smart spatial planning. Ecological Applications. https://doi.org/10.1002/eap.2852\nKot, CY, S.E. DeLand, A.-L. Harrison, A. Alberini, H. Blondin, M. Chory, J. Cleary, … D.C. Dunn, P.N. Halpin (2023) Synthesizing connectivity information from migratory marine species for area-based management. Biological Conservation. 110142. https://doi.org/10.1016/j.biocon.2023.110142\nSchoeman DS, Sen-Gupta A, Harrison CS, Everett JD, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ (2023). Demystifying global climate models for use in the life sciences. Trends in Ecology and Evolution. https://doi.org/10.1016/j.tree.2023.04.005\nBrito-Morales I, Schoeman DS, Klein C, Dunn DC, Everett JD, García Molinos, Burrows MT, Dominguez RM, Possingham H, Richardson AJ (2022) Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas. Nature Climate Change 12: 402-407. https://doi.org/10.1038/s41558-022-01323-7\nCinner, J.E., Thiault, L., Caldwell, I., Ben, J., Blanchard, J., Diedrich, A., Eddy, T., Gurney, G., Heneghan, R., Jagermeyer, J., Jiddawi, N., Kuange, J., Lahari, R., Mukminin, A., Novaglio, C., Raberisoa, A., Wamukota, A., Everett, J.D., … Richard Pollnac (2022) The potential impacts of climate change on agriculture and fisheries production in 72 tropical coastal communities. Nature Communications. https://doi.org/10.1038/s41467-022-30991-4\nKot, C.Y., S. Åkesson, J. Alfaro-Shigueto, D. F. Amorocho Llanos, M. Antonopoulou … D.C. Dunn, et al. (2022) Network analysis of sea turtle movements and connectivity: a tool for conservation prioritization. Diversity & Distributions. 28(4):810-829. https://doi.org/10.1111/ddi.13485\nSullivan-Stack, J, O. Aburto-Oropeza, C.M. Brooks, R.B. Cabral, J.E. Caselle, F. Chan, J.E. Duffy, D.C. Dunn, et al. (2022) A Scientific Synthesis of Marine Protected Areas in the United States: Status and Recommendations. Frontiers in Marine Science. 9. https://doi.org/10.3389/fmars.2022.849927\nRoberson, L., H. Beyer, C. O’Hara, J. Watson, D.C. Dunn, B. Halpern, C. Klein, et al. (2021) Multinational coordination required for conservation of over 90% of marine species. Global Change Biology. 27 (23):6206-6216\nArafeh Dalmau N, Brito-Morales I, Schoeman DS, Klein CJ, Richardson AJ, Possingham H (2021) Incorporating climate velocity in marine spatial prioritization. Methods in Ecology and Evolution 12: 1969-1983. https://doi.org/10.1111/2041-210X.13675\nBrito-Morales I, Schoeman DS, Burrows MT, Klein CJ, Kesner-Reyes K, Richardson AJ (2020) Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming. Nature Climate Change 10: 576-581. https://doi.org/10.1038/s41558-020-0773-5\nBrito-Morales I, Molinos JG, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JE, Wenger AS, Richardson AJ (2018) Climate velocity can inform conservation in a warming world. Trends in Ecology and Evolution 33(6): 441-457. https://doi.org/10.1016/j.tree.2018.03.009"
-  },
-  {
     "objectID": "setup.html",
     "href": "setup.html",
     "title": "UQ R Workshops 2025",
@@ -131,5 +33,152 @@
     "title": "UQ R Workshops 2025",
     "section": "5. Connecting to WiFi",
     "text": "5. Connecting to WiFi\nYour experience at the workshop will be greatly enhanced (and in some cases required) if you can access the internet. There are a range of options available, but if your laptop is centrally managed by your employer, please check with your IT department before attending the workshop.\n\nFor UQ Staff/Students you can access the WiFi as you normally would on campus.\n\nFor other university/research affiliated staff/students, eduroam will be available. Please ensure you know how to connect and considering testing the connection on your home campus.\n\nFor everyone else, UQ runs a Guest WiFi network. You can connect to the network by signing in with your Gmail, Facebook or LinkedIn accounts. You can access further information here.\n\nAlternatively you can hotspot with your phone.\n\nIf you have and questions or concerns, please don’t hesitate to reach out to us.\nWe look forward to seeing you there!\nRegards\nAnt, Dave, Christina and Jase"
+  },
+  {
+    "objectID": "realTime/Kosrae.html",
+    "href": "realTime/Kosrae.html",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "For the past two years, we have been working with the Waitt Institute as part of the Blue Prosperity Coalition. The Waitt Institute partners with governments and communities to develop sustainable, science-based spatial plans that balance conservation, livelihoods, and cultural values. Together, we have rapidly developed shinyplanr and deployed it for use in target island states such as Kosrae in the Federated States of Micronesia, a small island state (195 km2). shinyplanr is currently being used to engage stakeholders in Kosrae, and help to teach them about the spatial planning process. You can read more about our ongoing collaboration."
+  },
+  {
+    "objectID": "realTime/Kosrae.html#shinyplanr-in-kosrae-and-vanuatu",
+    "href": "realTime/Kosrae.html#shinyplanr-in-kosrae-and-vanuatu",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "For the past two years, we have been working with the Waitt Institute as part of the Blue Prosperity Coalition. The Waitt Institute partners with governments and communities to develop sustainable, science-based spatial plans that balance conservation, livelihoods, and cultural values. Together, we have rapidly developed shinyplanr and deployed it for use in target island states such as Kosrae in the Federated States of Micronesia, a small island state (195 km2). shinyplanr is currently being used to engage stakeholders in Kosrae, and help to teach them about the spatial planning process. You can read more about our ongoing collaboration."
+  },
+  {
+    "objectID": "realTime/WeddellSea.html",
+    "href": "realTime/WeddellSea.html",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "We led the development of an interactive spatial planning App to support real-time stakeholder engagement across 27 CCAMLR member states in the Weddell Sea (1.57 million km²). The process informed a proposal—tabled by Norway—to protect 628,000 km² (40%) as a marine protected area. Though not yet adopted due to geopolitical challenges, hopefully it will be in the future when international relationships stabilise. However, the transparent, participatory planning tool we developed continues to shape the design of protected areas.\nDuring this process we worked closely with our partners - The Norwegian Polar Institute - to tailor the app to their needs. The App used data from The WSMPA Phase 2 Atlas that was the result of an international collaborative effort. During the process we led virtual stakeholder workshops (during COVID) to guide scientists and policy makers through the App to better understand the spatial planning process.\n\n\n\n\n\n\nWhere it all began\n\n\n\nThis was the original! The work we undertook on this initial App for the Weddell Sea kickstarted the development of our highly customisable and relocatable shinyplanr app that is deployed today in regions such as Kosrae."
+  },
+  {
+    "objectID": "realTime/WeddellSea.html#shinyplanr-in-the-weddell-sea",
+    "href": "realTime/WeddellSea.html#shinyplanr-in-the-weddell-sea",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "We led the development of an interactive spatial planning App to support real-time stakeholder engagement across 27 CCAMLR member states in the Weddell Sea (1.57 million km²). The process informed a proposal—tabled by Norway—to protect 628,000 km² (40%) as a marine protected area. Though not yet adopted due to geopolitical challenges, hopefully it will be in the future when international relationships stabilise. However, the transparent, participatory planning tool we developed continues to shape the design of protected areas.\nDuring this process we worked closely with our partners - The Norwegian Polar Institute - to tailor the app to their needs. The App used data from The WSMPA Phase 2 Atlas that was the result of an international collaborative effort. During the process we led virtual stakeholder workshops (during COVID) to guide scientists and policy makers through the App to better understand the spatial planning process.\n\n\n\n\n\n\nWhere it all began\n\n\n\nThis was the original! The work we undertook on this initial App for the Weddell Sea kickstarted the development of our highly customisable and relocatable shinyplanr app that is deployed today in regions such as Kosrae."
+  },
+  {
+    "objectID": "realTime/WeddellSea.html#explore-the-app",
+    "href": "realTime/WeddellSea.html#explore-the-app",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "Explore the App",
+    "text": "Explore the App\nYou can explore the Weddell Sea Phase 2 App here or check out the screenshots below.\n\n\n\n\n\nScenario Tab in the WSMPAII App\n\n\n\n\n\n\nScenario Tab in the WSMPAII App\n\n\n\n\n\n\nScenario Tab in the WSMPAII App"
+  },
+  {
+    "objectID": "realTime/WeddellSea.html#cbcs-presentation",
+    "href": "realTime/WeddellSea.html#cbcs-presentation",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "CBCS Presentation",
+    "text": "CBCS Presentation\nIn August 2023, Dr Jason Everett discussed stakeholder engagement using the Weddell Sea Phase 2 app to the Centre for Biodiversity and Conservation Science at The University of Queensland."
+  },
+  {
+    "objectID": "climate.html",
+    "href": "climate.html",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.\nWe have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see Publications – Buenafe et al. (2025); Buenafe et al. (2023); Brito-Morales et al. (2022); Arafeh Dalmau et al. (2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app."
+  },
+  {
+    "objectID": "climate.html#climate-smart-tools",
+    "href": "climate.html#climate-smart-tools",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "Climate change generally reduces the effectiveness of established protected areas in safeguarding biodiversity by causing local extinctions, community changes, and species-distribution shifts beyond protected area boundaries. However, climate change has rarely been incorporated into the design and management of protected areas. Climate-smart protected areas consider climate change throughout design and management, by integrating concepts from climate change ecology.\nWe have developed multiple approaches for designing climate-smart protected areas. These preferentially place protected areas in climate refugia or climate adaptation hotspots (see Publications – Buenafe et al. (2025); Buenafe et al. (2023); Brito-Morales et al. (2022); Arafeh Dalmau et al. (2021)). Our methods are based on global Earth System Models and are thus ideal for data-poor regions, and in small regions we use data from high resolution climate models (10 km). These methods can be included in our shinyplanr real-time spatial planning app."
+  },
+  {
+    "objectID": "climate.html#real-time-climate-vulnerability",
+    "href": "climate.html#real-time-climate-vulnerability",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "Real-time Climate Vulnerability",
+    "text": "Real-time Climate Vulnerability\n\nWe can also develop an online real-time app for assessing the climate vulnerability of protected areas in a region, in comparison to areas outside. This app can also compare the climate vulnerability of particular species based on where the region is within their global distribution."
+  },
+  {
+    "objectID": "shiny.html",
+    "href": "shiny.html",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a Shiny App to allow users to interrogate the distribution models of spawning habitat .\n\n\n\n  \nThe Biological Ocean Observer integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate."
+  },
+  {
+    "objectID": "shiny.html#we-develop-science-based-shiny-tools",
+    "href": "shiny.html#we-develop-science-based-shiny-tools",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a Shiny App to allow users to interrogate the distribution models of spawning habitat .\n\n\n\n  \nThe Biological Ocean Observer integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate."
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Delivering planning solutions",
+    "section": "",
+    "text": "We design practical, science-based spatial plans that balance conservation, sustainable use, and climate resilience. Our team brings deep expertise in integrating biodiversity, ecosystem services, and human uses, while avoiding residual protection and supporting genuine stakeholder engagement.\nWe work with partners to:\n\nDefine planning needs\nProcess biodiversity and ecosystem service data\nDeploy customised, transparent shinyplanr apps for real-time use\nFacilitate inclusive stakeholder workshops\nDevelop and evaluate candidate spatial plans\n\nOur solutions incorporate:\n\nMultiple-use planning that balances ecological and economic priorities\nClimate-smart approaches that future-proof conservation under climate change\nEcosystem service mapping for carbon, coastal protection, and fisheries\n\nThese elements underpin our collaborative approach to delivering effective, equitable ocean planning. We are ready to partner with you. Please contact Anthony, Daniel or Jason to discuss future partnerships."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "If you would like to be notified when further details of the upcoming workshops are released please join our mailing list. We will only send a couple of emails per year to advertise when the upcoming workshops have been released. This website will remain our main communication tool.\nIf you have questions now, feel free to email our team at UQ’s Centre for Biodiversity and Conservation Science (CBCS): cbcs-workshops@uq.edu.au.\nJoin the mailing list to get notified of upcoming workshops"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Challenges in spatial planning",
+    "section": "",
+    "text": "Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the Global Biodiversity Framework — expanding spatial planning (Target 1), restoring ecosystems (Target 2), and conserving biodiversity (Target 3). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs."
+  },
+  {
+    "objectID": "index.html#our-mission",
+    "href": "index.html#our-mission",
+    "title": "Challenges in spatial planning",
+    "section": "Our mission",
+    "text": "Our mission\nWe are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge research-driven tools tailored to local contexts.\nWe co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform shinyplanr based on user feedback and emerging science."
+  },
+  {
+    "objectID": "index.html#our-expertise",
+    "href": "index.html#our-expertise",
+    "title": "Challenges in spatial planning",
+    "section": "Our expertise",
+    "text": "Our expertise\n\n\n\n\nProf. Anthony J. Richardson – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science. He has authored over 250 scientific papers, been cited more than 35,000 times, and has made significant contributions to our understanding of climate impacts on marine ecosystems—from plankton to fish. His research has also helped shape national and international strategies for marine spatial planning, biodiversity conservation and ecosystem-based management.\n\n\n\n\n\n\nA/Prof. Daniel Dunn – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.\n\n\n\n\n\n\nDr Jason Everett – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems. He has spent 15+ years working on understanding how oceanographic processes structure global pelagic food webs, designing climate-smart marine protected areas and investigating the impact of climate-change on marine ecosystem function. He leads the development of R-packages and Shiny visualisation tools that are used to inform marine management."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below is a selection of our recent conservation-related publications. Our team is in bold.\nBuenafe KCV, Dunn DC, Metaxas A, Everett, JD, Schoeman DS, Pidd A, Brito-Morales I, Hanson JO, Kim SW, Scales KL, Richardson AJ (2025) Current approaches and future opportunities in designing climate-smart protected areas. Nature Reviews in Biology https://doi.org/10.1038/s44358-025-00041-0\nRichardson AJ, Buenafe KCV (2025) A deep dive into climate connectivity. News & Views. Nature Climate Change. 2 pp. https://doi.org/10.1038/s41558-025-02253-w\nGiakoumi S, Richardson AJ, Doxa A, Moro S, Andrello M, Hanson JO, Hermoso V, Mazor T, McGowan J, Kujala H, Law E, Álvarez-Romero JG, Magris RA, Gissi E, Arafeh-Dalmau N, Metaxas A, Virtanen E, Ban NC, Runya RM, Dunn DC, Fraschetti S, Galsparsoro I, Smith RJ, Bastardie F, Stelzenmüller V, Possingham HP, Katsenevakis S (2024) Advances in systematic conservation planning concepts, tools and methods. Trends in Ecology and Evolution.16 pp. https://doi.org/10.1016/j.tree.2024.12.002\nFleury AG, O’Hara CC, Butt N, Restrepo J, Halpern BS, Klein CJ, Wenger A, Kuempel CD, Gaynor KM, Bentley LK, Richardson AJ, Dunn DC (in press, 13/6/2024) Spatial and life history variation in a trait-based vulnerability and impact model. PLoS One 19(6). e0305950. 16 pp. https://doi.org/10.1371/journal.pone.0305950\nBlanluet A, Game E, Dunn DC, Everett JD, Lombard AT, Richardson AJ (2024). Evaluating ecological benefits of oceanic protected areas. Trends in Ecology and Evolution 39(2): 175-187. https://doi.org/10.1016/j.tree.2023.09.003\nFourchault L, Dunn DC, Everett JD, Hanson JO, Buenafe KCV, Neubert S, Dabalà A, Richardson AJ (2024) Generating affordable protection of high seas biodiversity through cross-sectoral spatial planning. One Earth 7: 253-264. https://doi.org/10.1016/j.oneear.2023.12.006\nDabalà A, Dahdouh-Guebas F, Dunn DC, Everett JD, Lovelock CE, Hanson JO, Buenafe KCV, Neubert S, Richardson AJ (2023) Priority areas to protect mangroves and maximise ecosystem services. Nature Communications. https://doi.org/10.1038/s41467-023-41333-3\nBuenafe KCV, Dunn DC, Everett JD, Brito-Morales I, Schoeman DS, Hanson JO, Dabalà A, Neubert S, Richardson AJ (2023) A metric-based framework for climate-smart spatial planning. Ecological Applications. https://doi.org/10.1002/eap.2852\nKot, CY, S.E. DeLand, A.-L. Harrison, A. Alberini, H. Blondin, M. Chory, J. Cleary, … D.C. Dunn, P.N. Halpin (2023) Synthesizing connectivity information from migratory marine species for area-based management. Biological Conservation. 110142. https://doi.org/10.1016/j.biocon.2023.110142\nSchoeman DS, Sen-Gupta A, Harrison CS, Everett JD, Brito-Morales I, Hannah L, Bopp L, Roehrdanz P, Richardson AJ (2023). Demystifying global climate models for use in the life sciences. Trends in Ecology and Evolution. https://doi.org/10.1016/j.tree.2023.04.005\nBrito-Morales I, Schoeman DS, Klein C, Dunn DC, Everett JD, García Molinos, Burrows MT, Dominguez RM, Possingham H, Richardson AJ (2022) Towards climate-smart, three-dimensional protected areas for biodiversity conservation in the high seas. Nature Climate Change 12: 402-407. https://doi.org/10.1038/s41558-022-01323-7\nCinner, J.E., Thiault, L., Caldwell, I., Ben, J., Blanchard, J., Diedrich, A., Eddy, T., Gurney, G., Heneghan, R., Jagermeyer, J., Jiddawi, N., Kuange, J., Lahari, R., Mukminin, A., Novaglio, C., Raberisoa, A., Wamukota, A., Everett, J.D., … Richard Pollnac (2022) The potential impacts of climate change on agriculture and fisheries production in 72 tropical coastal communities. Nature Communications. https://doi.org/10.1038/s41467-022-30991-4\nKot, C.Y., S. Åkesson, J. Alfaro-Shigueto, D. F. Amorocho Llanos, M. Antonopoulou … D.C. Dunn, et al. (2022) Network analysis of sea turtle movements and connectivity: a tool for conservation prioritization. Diversity & Distributions. 28(4):810-829. https://doi.org/10.1111/ddi.13485\nSullivan-Stack, J, O. Aburto-Oropeza, C.M. Brooks, R.B. Cabral, J.E. Caselle, F. Chan, J.E. Duffy, D.C. Dunn, et al. (2022) A Scientific Synthesis of Marine Protected Areas in the United States: Status and Recommendations. Frontiers in Marine Science. 9. https://doi.org/10.3389/fmars.2022.849927\nRoberson, L., H. Beyer, C. O’Hara, J. Watson, D.C. Dunn, B. Halpern, C. Klein, et al. (2021) Multinational coordination required for conservation of over 90% of marine species. Global Change Biology. 27 (23):6206-6216 https://doi.org/10.1111/gcb.15844\nArafeh Dalmau N, Brito-Morales I, Schoeman DS, Klein CJ, Richardson AJ, Possingham H (2021) Incorporating climate velocity in marine spatial prioritization. Methods in Ecology and Evolution 12: 1969-1983. https://doi.org/10.1111/2041-210X.13675\nBrito-Morales I, Schoeman DS, Burrows MT, Klein CJ, Kesner-Reyes K, Richardson AJ (2020) Climate velocity reveals increasing exposure of deep-ocean biodiversity to future warming. Nature Climate Change 10: 576-581. https://doi.org/10.1038/s41558-020-0773-5\nBrito-Morales I, Molinos JG, Schoeman DS, Burrows MT, Poloczanska ES, Brown CJ, Ferrier S, Harwood TD, Klein CJ, McDonald-Madden E, Moore PJ, Pandolfi JM, Watson JE, Wenger AS, Richardson AJ (2018) Climate velocity can inform conservation in a warming world. Trends in Ecology and Evolution 33(6): 441-457. https://doi.org/10.1016/j.tree.2018.03.009"
+  },
+  {
+    "objectID": "realTime/shinyplanr.html",
+    "href": "realTime/shinyplanr.html",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "The shinyplanr app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.\nBuilt on robust science and the proven R language and prioritizr engine, shinyplanr helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed."
+  },
+  {
+    "objectID": "realTime/shinyplanr.html#real-time-planning-with-shinyplanr",
+    "href": "realTime/shinyplanr.html#real-time-planning-with-shinyplanr",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "",
+    "text": "The shinyplanr app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.\nBuilt on robust science and the proven R language and prioritizr engine, shinyplanr helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed."
+  },
+  {
+    "objectID": "realTime/shinyplanr.html#what-makes-shinyplanr-different",
+    "href": "realTime/shinyplanr.html#what-makes-shinyplanr-different",
+    "title": "Spatial Planning Team @ UQ",
+    "section": "What makes shinyplanr different?",
+    "text": "What makes shinyplanr different?\nReal-time planning: Most scenarios run in seconds, allowing stakeholders to quickly test options and iterate without delays.\nTransparent, user-driven decisions: Users control targets, costs, and constraints — that means more learning, more trust, and faster buy-in.\nFaster consensus, fewer workshops: Stakeholders do not need to agree upfront. Instead, they explore plans independently, reducing the need for multiple expert-led workshops.\nClear trade-offs: See exactly how different features, zones, and costs shape a plan. Understand where the compromises are — and who is affected.\nInsights that matter: The shinyplanr app highlights which features drive solutions. Often, only a few constraints determine the outcome — and this becomes clear through direct exploration.\nFlexible objectives: Unlike tools with one fixed goal, shinyplanr supports multiple planning questions. Want to see what 30% protection gets you? You can.\nRich functionality: Built in R with prioritizr, shinyplanr offers all the power of Marxan — and then some.\nScalable and customisable: From tiny areas such as Kosrae in Federated States of Micronesia, to vast regions such as the Weddell Sea, shinyplanr adapts to your geography, language, and data."
+  },
+  {
+    "objectID": "developingShiny.html",
+    "href": "developingShiny.html",
+    "title": "Instructions for R Workshops @ UQ 2025",
+    "section": "",
+    "text": "Dear Participants,\nWe are looking forward to seeing you at our next R Workshop @ UQ. The Workshop will run from 9-4 pm on campus at UQ. Instructions for software installation, room allocation and break times will be posted here closer to the date.\nIn the meantime, if you have and questions or concerns, please don’t hesitate to reach out to us at cbcs-workshops@uq.edu.au.\nWe look forward to meeting you soon.\nRegards\nAnt, Dave, Jase and Nick"
   }
 ]

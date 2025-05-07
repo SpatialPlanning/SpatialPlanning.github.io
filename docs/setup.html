@@ -126,25 +126,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./realTime.html"> 
-<span class="menu-text">Real-time Planning</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Real-time Planning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
+        <li>
+    <a class="dropdown-item" href="./realTime/shinyplanr.html">
+ <span class="dropdown-text">About <em>shinyplanr</em></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./spatialPlanning.html"> 
-<span class="menu-text">Planning Solutions</span></a>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./realTime/WeddellSea.html">
+ <span class="dropdown-text">Weddell Sea</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./realTime/Kosrae.html">
+ <span class="dropdown-text">Kosrae</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./climate.html"> 
 <span class="menu-text">Climate-smart Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./shiny.html"> 
-<span class="menu-text">Our Shiny Tools</span></a>
+<span class="menu-text">Other Shiny Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Our Services</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SpatialPlanning" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -154,7 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -170,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -179,7 +209,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -723,8 +753,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
 

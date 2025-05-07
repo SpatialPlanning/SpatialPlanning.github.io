@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -92,25 +95,55 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./realTime.html"> 
-<span class="menu-text">Real-time Planning</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Real-time Planning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
+        <li>
+    <a class="dropdown-item" href="./realTime/shinyplanr.html">
+ <span class="dropdown-text">About <em>shinyplanr</em></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./spatialPlanning.html"> 
-<span class="menu-text">Planning Solutions</span></a>
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./realTime/WeddellSea.html">
+ <span class="dropdown-text">Weddell Sea</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./realTime/Kosrae.html">
+ <span class="dropdown-text">Kosrae</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./climate.html"> 
 <span class="menu-text">Climate-smart Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./shiny.html"> 
-<span class="menu-text">Our Shiny Tools</span></a>
+<span class="menu-text">Other Shiny Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Our Services</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/SpatialPlanning" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -128,14 +161,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#who-we-are" id="toc-who-we-are" class="nav-link active" data-scroll-target="#who-we-are">Who we are</a></li>
+  <li><a href="#our-mission" id="toc-our-mission" class="nav-link active" data-scroll-target="#our-mission">Our mission</a></li>
   <li><a href="#our-expertise" id="toc-our-expertise" class="nav-link" data-scroll-target="#our-expertise">Our expertise</a></li>
-  <li><a href="#advancing-spatial-planning-for-biodiversity-and-climate-resilience" id="toc-advancing-spatial-planning-for-biodiversity-and-climate-resilience" class="nav-link" data-scroll-target="#advancing-spatial-planning-for-biodiversity-and-climate-resilience">Advancing spatial planning for Biodiversity and climate resilience</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -144,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -156,22 +188,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the Global Biodiversity Framework—expanding spatial planning (Target 1), restoring ecosystems (Target 2), and conserving biodiversity (Target 3). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs.</p>
-<section id="who-we-are" class="level2">
-<h2 class="anchored" data-anchor-id="who-we-are">Who we are</h2>
-<p>We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge tools tailored to local contexts. We co-develop planning solutions with partners, continually improving our open-source platform shinyplanr based on user feedback and emerging science.</p>
+<div class="columns">
+<div class="column" style="width:79%;">
+<p>Accelerating human activities and intensifying climate change and are threatening biodiversity. In response, countries are scaling-up spatial planning to meet targets under the <a href="https://www.cbd.int/gbf">Global Biodiversity Framework</a> — expanding spatial planning (<a href="https://www.cbd.int/gbf/targets/1">Target 1</a>), restoring ecosystems (<a href="https://www.cbd.int/gbf/targets/2">Target 2</a>), and conserving biodiversity (<a href="https://www.cbd.int/gbf/targets/3">Target 3</a>). But planning is complex. Each nation has unique requirements, and stakeholder processes are often slow and gridlocked, hindered by a disconnect between planning tools and stakeholder needs.</p>
+</div><div class="column" style="width:7%;">
+<p><a href="images/target-01.png" class="lightbox" data-gallery="GBF"><img src="images/target-01.png" class="img-fluid"></a></p>
+</div><div class="column" style="width:6%;">
+<p><a href="images/target-02.png" class="lightbox" data-gallery="GBF"><img src="images/target-02.png" class="img-fluid"></a></p>
+</div><div class="column" style="width:7%;">
+<p><a href="images/target-03.png" class="lightbox" data-gallery="GBF"><img src="images/target-03.png" class="img-fluid"></a></p>
+</div>
+</div>
+<section id="our-mission" class="level2">
+<h2 class="anchored" data-anchor-id="our-mission">Our mission</h2>
+<p>We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge research-driven tools tailored to local contexts.</p>
+<p>We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform <a href="realTime/shinyplanr.html"><strong><em>shinyplanr</em></strong></a> based on user feedback and emerging science.</p>
 </section>
 <section id="our-expertise" class="level2">
 <h2 class="anchored" data-anchor-id="our-expertise">Our expertise</h2>
-<ul>
-<li><p>Prof.&nbsp;Anthony J. Richardson – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science.</p></li>
-<li><p>A/Prof.&nbsp;Daniel Dunn – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.</p></li>
-<li><p>Dr Jason Everett – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems.</p></li>
-</ul>
-</section>
-<section id="advancing-spatial-planning-for-biodiversity-and-climate-resilience" class="level2">
-<h2 class="anchored" data-anchor-id="advancing-spatial-planning-for-biodiversity-and-climate-resilience">Advancing spatial planning for Biodiversity and climate resilience</h2>
-<p>This website showcases our research-driven tools – particularly shinyplanr - and expertise for developing rapid, effective and inclusive spatial plans. We focus on co-designed solutions that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate.</p>
+<div class="columns">
+<div class="column" style="width:15%;">
+<p><img src="images/Richardson_round.png" style="width: 80%; object-fit: contain"></p>
+</div><div class="column" style="width:85%;">
+<p><a href="https://mathmarecol.github.io/people/#professor-anthony-j.-richardson">Prof.&nbsp;Anthony J. Richardson</a> – A mathematical ecologist with 25+ years of research experience in climate change ecology, ecosystem modelling, and conservation science. He has authored over 250 scientific papers, been cited more than 35,000 times, and has made significant contributions to our understanding of climate impacts on marine ecosystems—from plankton to fish. His research has also helped shape national and international strategies for marine spatial planning, biodiversity conservation and ecosystem-based management.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:15%;">
+<p><img src="images/Dunn_round.png" style="width: 80%; object-fit: contain"></p>
+</div><div class="column" style="width:85%;">
+<p><a href="https://cbcs.centre.uq.edu.au/profile/3059/daniel-dunn">A/Prof.&nbsp;Daniel Dunn</a> – A marine conservation scientist with 20+ years advising on area-based management for international bodies including UNESCO, the International Seabed Authority (ISA), the Convention on Biological Diversity (CBD), the Convention on Migratory Species (CMS), the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR), and the Biodiversity Beyond National Jurisdiction (BBNJ) treaty.</p>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:15%;">
+<p><img src="images/Everett_round.png" style="width: 80%; object-fit: contain"></p>
+</div><div class="column" style="width:85%;">
+<p><a href="https://jaseeverett.github.io">Dr Jason Everett</a> – A spatial ecologist and data scientist developing tools for designing protected areas and analysing climate change impacts on ecosystems. He has spent 15+ years working on understanding how oceanographic processes structure global pelagic food webs, designing climate-smart marine protected areas and investigating the impact of climate-change on marine ecosystem function. He leads the development of R-packages and Shiny visualisation tools that are used to inform marine management.</p>
+</div>
+</div>
 
 
 </section>
@@ -614,10 +669,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span></p>
+</div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
