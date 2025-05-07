@@ -6,7 +6,7 @@ title: ""
 
 ### Tuna spawning areas
 
-![Larval Tuna HotSpots](images/LarvalTuna.png){width=40% .lightbox group="shiny" .float-left}
+![Larval Tuna HotSpots](images/LarvalTuna.png){width=40% .lightbox group="shiny" .float-right}
 The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a [Shiny App](https://mathmarecol.shinyapps.io/LarvalHotSpots/) to allow users to interrogate the distribution models of spawning habitat .
 
 ### Oceanographic data analysis
