@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Spatial Planning Team @ UQ"
+  title: "Spatial Planning @ UQ"
   navbar:
     left:
       - text: Home
@@ -19,9 +19,9 @@ website:
             href: realTime/WeddellSea.qmd
           - text: Kosrae
             href: realTime/Kosrae.qmd
-      - text: Climate-smart Tools
-        href: climate.qmd
-      - text: Other Shiny Tools
+      - text: Planning Aspects
+        href: elements.qmd
+      - text: Other Tools
         href: shiny.qmd
       - text: Publications
         href: publications.qmd

@@ -3,11 +3,11 @@ title: "Delivering planning solutions"
 ---
 
 ![We work closely with our partners](images/Collaboration.jpeg){.float-right .lightbox width=40%}
-We design practical, science-based spatial plans that balance conservation, sustainable use, and climate resilience. Our team brings deep expertise in integrating biodiversity, ecosystem services, and human uses, while avoiding residual protection and supporting genuine stakeholder engagement.
+We design practical, science-based spatial plans that balance conservation, sustainable multiple-use, and climate resilience. Our team brings deep expertise in integrating biodiversity, ecosystem services, and human uses, while avoiding residual protection and supporting genuine stakeholder engagement.
 
 We work with partners to:
 
-* Define planning needs
+* Define planning needs and objectives
 
 * Process biodiversity and ecosystem service data
 
@@ -17,7 +17,7 @@ We work with partners to:
 
 *	Develop and evaluate candidate spatial plans
 
-Our solutions incorporate:
+Our solutions can incorporate:
 
 *	Multiple-use planning that balances ecological and economic priorities
 
@@ -25,9 +25,23 @@ Our solutions incorporate:
 
 *	Ecosystem service mapping for carbon, coastal protection, and fisheries
 
-These elements underpin our collaborative approach to delivering effective, equitable ocean planning. We are ready to partner with you. Please contact [Anthony](mailto:a.richardson1@uq.edu.au), [Daniel](mailto:Daniel.Dunn@uq.edu.au) or [Jason](mailto:Jason.Everett@uq.edu.au) to discuss future partnerships.
+* Connectivity of different habitats
 
+* High resolution global species (5-km resolution) and habitat (1-km) distributions
 
+These elements underpin our collaborative approach to delivering effective, equitable, stake-holder focused ocean planning. We are ready to partner with you. Please contact [Anthony](mailto:a.richardson1@uq.edu.au), [Daniel](mailto:Daniel.Dunn@uq.edu.au) or [Jason](mailto:Jason.Everett@uq.edu.au) to discuss future partnerships.
+
+### Future work: Climate-smart app to empower marine planning in a changing world
+
+![](images/ClimateApp.png){width=50% .lightbox .float-left}
+
+Climate change is rapidly undermining the effectiveness of traditional marine protected areas by shifting species distributions, disrupting ecosystems, and transforming ocean conditions. Despite this, most marine spatial planning (MSP) efforts still overlook climate change or treat it as an afterthought, risking misaligned conservation efforts and leaving marine ecosystems and dependent communities vulnerable. There is an urgent need to integrate climate foresight into planning frameworks to avoid wasting resources and to ensure biodiversity protection in the face of environmental change.
+
+To address this gap, we envisage a suite of interactive, real-time web tools to embed climate change into the heart of MSP. The first phase would involve a regional climate app that lets users explore future ocean conditions under different emissions scenarios, visualise changes across key climate variables, and identify climate refugia and hotspots. Building on this, the second phase would deliver a biodiversity-climate risk app that applies a cutting-edge climate vulnerability index to assess species and habitat risk, guiding the design of climate-smart MPAs. 
+
+These open-source tools would empower planners—particularly in data-limited and island regions—to make informed, forward-looking decisions, helping countries meet biodiversity and climate targets while ensuring more resilient ocean stewardship.
+
+We are looking for partners to realise this vision.
 
 
 

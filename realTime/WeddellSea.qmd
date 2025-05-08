@@ -5,12 +5,14 @@ title: ""
 ## _shinyplanr_ in the Weddell Sea
 
 ![Image: Alfred Wegener Institute / Yves Nowak](images/Alfred-Wegener-Institute-Yves-Nowak-741x650.jpg){.float-right .lightbox width=40% group="WSMPAII"}
-We led the development of an interactive spatial planning App to support real-time stakeholder engagement across 27 CCAMLR member states in the Weddell Sea (1.57 million km²). The process informed a proposal—tabled by Norway—to protect 628,000 km² (40%) as a marine protected area. Though not yet adopted due to geopolitical challenges, hopefully it will be in the future when international relationships stabilise. However, the transparent, participatory planning tool we developed continues to shape the design of protected areas.
+We led the development of an interactive spatial planning App to support real-time stakeholder engagement across 27 CCAMLR (Commission for the Conservation of Antarctic Marine Living Resources) member states in the Weddell Sea (1.57 million km²). The process informed a proposal—tabled by Norway—to protect 628,000 km² (40%) as a marine protected area. 
+
+This initiative represents the most rapidly developed network of marine protected areas in the CCAMLR region to have received support from the CCAMLR Scientific Committee. Although it has not yet been formally adopted due to ongoing geopolitical challenges, there is hope that it will advance once international relations improve. In the meantime, the transparent and participatory planning tool we developed continues to inform and influence the design of protected areas throughout the region.
 
 During this process we worked closely with our partners - [The Norwegian Polar Institute](https://npolar.no/en/) - to tailor the app to their needs. The App used data from [The WSMPA Phase 2 Atlas](https://tryggve.npolar.no/web/maudatlas/Atlas.html) that was the result of an international collaborative effort. During the process we led virtual stakeholder workshops (during COVID) to guide scientists and policy makers through the App to better understand the spatial planning process. 
 
 :::{.callout-note title="Where it all began"}
-This was the original! The work we undertook on this initial App for the Weddell Sea kickstarted the development of our highly customisable and relocatable [**_shinyplanr_**](realTime/shinyplanr.html) app that is deployed today in regions such as [Kosrae](realTime/Kosrae/html).
+This was the original! The work we undertook on this initial App for the Weddell Sea kick-started the development of our highly customisable and relocatable [**_shinyplanr_**](realTime/shinyplanr.html) app that is deployed today in regions in the Indo-Pacific, including [Kosrae](realTime/Kosrae/html).
 :::
 
 ## Explore the App
@@ -36,7 +38,6 @@ You can explore the Weddell Sea Phase 2 App [here](https://mathmarecol.shinyapps
 ## CBCS Presentation 
 
 In August 2023, Dr Jason Everett discussed stakeholder engagement using the Weddell Sea Phase 2 app to the Centre for Biodiversity and Conservation Science at The University of Queensland.
-
 
 <div class="video-container">
 
