@@ -95,18 +95,15 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Real-time Planning</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
-        <li>
-    <a class="dropdown-item" href="./realTime/shinyplanr.html">
- <span class="dropdown-text">About <em>shinyplanr</em></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./shinyplanr.html"> 
+<span class="menu-text"><em>shinyplanr</em></span></a>
   </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
-        <li><hr class="dropdown-divider"></li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-deployments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Deployments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-deployments">    
         <li>
     <a class="dropdown-item" href="./realTime/WeddellSea.html">
  <span class="dropdown-text">Weddell Sea</span></a>
@@ -186,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Define planning needs and objectives</p></li>
 <li><p>Process biodiversity and ecosystem service data</p></li>
-<li><p>Deploy customised, transparent <a href="realTime/shinyplanr.html"><strong><em>shinyplanr</em></strong></a> apps for real-time use</p></li>
+<li><p>Deploy customised, transparent <a href="shinyplanr.html"><strong><em>shinyplanr</em></strong></a> apps for real-time use</p></li>
 <li><p>Facilitate inclusive stakeholder workshops</p></li>
 <li><p>Develop and evaluate candidate spatial plans</p></li>
 </ul>
@@ -652,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","selector":".lightbox"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

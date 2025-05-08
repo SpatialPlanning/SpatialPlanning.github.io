@@ -95,18 +95,15 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Real-time Planning</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
-        <li>
-    <a class="dropdown-item" href="./realTime/shinyplanr.html">
- <span class="dropdown-text">About <em>shinyplanr</em></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./shinyplanr.html"> 
+<span class="menu-text"><em>shinyplanr</em></span></a>
   </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
-        <li><hr class="dropdown-divider"></li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-deployments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Deployments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-deployments">    
         <li>
     <a class="dropdown-item" href="./realTime/WeddellSea.html">
  <span class="dropdown-text">Weddell Sea</span></a>
@@ -668,7 +665,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

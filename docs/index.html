@@ -95,18 +95,15 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-real-time-planning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Real-time Planning</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-real-time-planning">    
-        <li>
-    <a class="dropdown-item" href="./realTime/shinyplanr.html">
- <span class="dropdown-text">About <em>shinyplanr</em></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./shinyplanr.html"> 
+<span class="menu-text"><em>shinyplanr</em></span></a>
   </li>  
-        <li><hr class="dropdown-divider"></li>
-        <li class="dropdown-header"><strong><em>shinyplanr</em> Deployments</strong></li>
-        <li><hr class="dropdown-divider"></li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-deployments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Deployments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-deployments">    
         <li>
     <a class="dropdown-item" href="./realTime/WeddellSea.html">
  <span class="dropdown-text">Weddell Sea</span></a>
@@ -203,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="our-mission" class="level2">
 <h2 class="anchored" data-anchor-id="our-mission">Our mission</h2>
 <p>We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge research-driven tools tailored to local contexts.</p>
-<p>We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform <a href="realTime/shinyplanr.html"><strong><em>shinyplanr</em></strong></a> based on user feedback and emerging science.</p>
+<p>We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform <a href="shinyplanr.html"><strong><em>shinyplanr</em></strong></a> based on user feedback and emerging science.</p>
 </section>
 <section id="our-expertise" class="level2">
 <h2 class="anchored" data-anchor-id="our-expertise">Our expertise</h2>
@@ -693,7 +690,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

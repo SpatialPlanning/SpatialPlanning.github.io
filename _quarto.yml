@@ -8,13 +8,10 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Real-time Planning
+      - text: _shinyplanr_
+        href: shinyplanr.qmd
+      - text: Deployments
         menu:
-          - text: About _shinyplanr_
-            href: realTime/shinyplanr.qmd
-          - text: -----------
-          - text: "**_shinyplanr_ Deployments**"
-          - text: -----------
           - text: Weddell Sea
             href: realTime/WeddellSea.qmd
           - text: Kosrae
