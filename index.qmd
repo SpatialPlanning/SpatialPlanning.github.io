@@ -59,43 +59,14 @@ We co-design planning solutions, with our partners, that support biodiversity co
 
 ## The team
 
-### Sandra Neubert
-::: columns
-::: {.column width="25%"}
-<img src="images/Sandra.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Sandra is a marine data scientist with an interest in marine spatial planning, particularly multiple use, and ecosystem modelling. She holds a BSc (Hons) in Marine Biology from the University of Plymouth and a MSc in Bioinformatics from the University of Leipzig. Sandra previous experience includes writing R packages and Shiny apps to facilitate stakeholder engagement with time-efficient and reproducible marine spatial planning apps. Her research focuses on designing marine protected areas and assessing their costs and benefits from an ecological and economic perspective. Her PhD will address multiple-use spatial planning in the Global South in a joint project by the University of Queensland and the University of Exeter.
-:::
-:::
-
 ### Kristine (Tin) Buenafe
-::: columns
-::: {.column width="25%"}
-<img src="images/Tin.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Kristine, better known as Tin, is a quantitative marine ecologist from the Philippines. Tin has a Master’s degree in [Tropical Biodiversity and Ecosystems (TROPIMUNDO)](https://tropimundo.eu), an Eramus Mundus Joint Master’s Degree program, where she finished first in her batch (Plus Grande Distinction). Tin has developed methods used by conservation practitioners to transition to more climate-smart spatial planning approaches. She’s done this by prioritising protection on climate refugia. In her PhD research, Tin wishes to continue her work on climate change and spatial planning by taking it a step further and developing ways of designing more connected, climate-smart protected area networks.
-:::
-:::
+Kristine, better known as Tin, is a quantitative marine ecologist from the Philippines. Her research focuses on developing ways of designing more connected, climate-smart protected area networks.
 
-### Alvise Dabala
-::: columns
-::: {.column width="25%"}
-<img src="images/Alvise.jpg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Alvise is a PhD student at the Mathematical Marine Ecology Lab and the Applied Marine Biogeography Lab, supervised by Prof. Anthony Richardson and A/Prof. Daniel Dunn. His research focuses on developing climate-smart and connected spatial prioritisations for mangrove conservation to protect mangrove biodiversity and ecosystem services. He holds an Erasmus Mundus Master’s degree in tropical ecology (TROPIMUNDO). During his thesis, he developed a global study which identifies priority areas for mangrove conservation that maximise ecosystem services. Before starting his PhD at The University of Queensland, he joined the iAtlantic project, funded by the European Union’s Horizon 2020 research and innovation program, developing spatial prioritisations for the conservation of the Atlantic Ocean at the University of Azores.
-:::
-:::
+### Alvise Dabalà
+Alvise is a spatial ecologist with experience developing spatial prioritisations for the Atlantic Ocean. His current research focuses on developing climate-smart and connected spatial prioritisations to protect mangrove biodiversity and ecosystem services. 
 
 ### Kris Jypson Esturas
-::: columns
-::: {.column width="25%"}
-<img src="images/Kris.jpeg" style="width: 80%; object-fit: contain"/>
-:::
-::: {.column width="75%"}
-Kris is a research assistant with the team. He has recently finished an Erasmus Mundus Joint Master's Degree in Tropical Biodiversity and Ecosystems (TROPIMUNDO), where he graduated as the top student of his cohort and received the Best Student Award. For his masters, he has studied in different institutions across different countries in Europe: Université Libre de Bruxelles/Vrije Universiteit Brussel (Semester 1); Université de La Réunion (Semester 2); and Università degli Studi di Firenze (Semester 3). For his final semester, which is completely allocated to thesis work, he worked on a marine spatial planning project using quantitative tools with The University of Queensland.
-:::
-:::
+Kris is a research assistant with the team. His previous research has focussed on leveraging climate adaptation hotpspots in the design of climate-smart protected areas
 
+### Sandra Neubert
+Sandra is a marine data scientist with an interest in marine spatial planning. Her research focuses on developing multiple-use approaches to designing protected areas and assessing their costs and benefits from an ecological and economic perspective.

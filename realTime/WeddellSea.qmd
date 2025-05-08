@@ -39,7 +39,6 @@ You can explore the Weddell Sea Phase 2 App [here](https://mathmarecol.shinyapps
 
 In August 2023, Dr Jason Everett discussed stakeholder engagement using the Weddell Sea Phase 2 app to the Centre for Biodiversity and Conservation Science at The University of Queensland.
 
-
 <div class="video-container">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLcvqdGyEFE?si=HlLpXp1njqGh2FO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
