@@ -11,7 +11,7 @@ We work with partners to:
 
 * Process biodiversity and ecosystem service data
 
-*	Deploy customised, transparent [**_shinyplanr_**](realTime/shinyplanr.html) apps for real-time use
+*	Deploy customised, transparent [**_shinyplanr_**](shinyplanr.html) apps for real-time use
 
 *	Facilitate inclusive stakeholder workshops
 

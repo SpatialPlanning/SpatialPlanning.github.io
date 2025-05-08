@@ -26,7 +26,7 @@ Accelerating human activities and intensifying climate change and are threatenin
 
 We are a team of university researchers advancing spatial planning for real-world conservation. Our mission is to support biodiversity outcomes through transparent, cutting-edge research-driven tools tailored to local contexts. 
 
-We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform [**_shinyplanr_**](realTime/shinyplanr.html) based on user feedback and emerging science.
+We co-design planning solutions, with our partners, that support biodiversity conservation, restoration, and sustainable ocean use under a changing climate. We have expertise in developing rapid, effective and inclusive spatial plans and are continually improving our open-source platform [**_shinyplanr_**](shinyplanr.html) based on user feedback and emerging science.
 
 ## Our expertise
 
