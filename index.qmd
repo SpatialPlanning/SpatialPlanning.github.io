@@ -68,5 +68,8 @@ Alvise is a spatial ecologist with experience developing spatial prioritisations
 ### Kris Jypson Esturas
 Kris is a research assistant with the team. His previous research has focussed on leveraging climate adaptation hotpspots in the design of climate-smart protected areas
 
+### Aharon Fluery
+Aharon is an environmental scientist with experience in academia and industry. His current research focuses on better incorporating impact on conservation targets to avoid selection of residual reserves.
+
 ### Sandra Neubert
 Sandra is a marine data scientist with an interest in marine spatial planning. Her research focuses on developing multiple-use approaches to designing protected areas and assessing their costs and benefits from an ecological and economic perspective.
