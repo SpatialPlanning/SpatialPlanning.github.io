@@ -8,6 +8,21 @@ title: ""
 The **_shinyplanr_** app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.
 
 Built on robust science and the proven R language and _prioritizr_ engine, **_shinyplanr_** helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed.
+<br>
+<br>
+<br>
+
+::: columns
+::: {.column width="15%"}
+:::
+::: {.column width="70%"}
+{{< video images/shinyplanr.mp4>}}
+:::
+::: {.column width="15%"}
+:::
+:::
+<br>
+
 
 ## What makes _shinyplanr_ different?
 
@@ -26,3 +41,4 @@ Built on robust science and the proven R language and _prioritizr_ engine, **_sh
 **Rich functionality**: Built in R with prioritizr, **_shinyplanr_** offers all the power of Marxan — and then some.
 
 **Scalable and customisable**: From tiny areas such as [Kosrae](realTime/Kosrae.html) in Federated States of Micronesia, to vast regions such as the [Weddell Sea](realTime/WeddellSea.html), shinyplanr adapts to your geography, language, and data.
+
