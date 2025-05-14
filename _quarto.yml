@@ -19,7 +19,7 @@ website:
       - text: Planning Aspects
         href: elements.qmd
       - text: Other Tools
-        href: shiny.qmd
+        href: tools.qmd
       - text: Publications
         href: publications.qmd
       - text: Our Services
@@ -51,8 +51,8 @@ format:
     # theme: yeti
     css: styles.css
     toc: true
-    toc-depth: 2
-    toc-expand: 2
+    toc-depth: 3
+    toc-expand: 3
     toc-location: right
     code-copy: true
     code-overflow: wrap
