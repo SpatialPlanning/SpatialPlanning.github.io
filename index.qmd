@@ -59,17 +59,48 @@ We co-design planning solutions, with our partners, that support biodiversity co
 
 ## Our team
 
-### Kristine (Tin) Buenafe
-Kristine, better known as Tin, is a quantitative marine ecologist from the Philippines. Her research focuses on developing ways of designing more connected, climate-smart protected area networks.
 
-### Alvise Dabalà
-Alvise is a spatial ecologist with experience developing spatial prioritisations for the Atlantic Ocean. His current research focuses on developing climate-smart and connected spatial prioritisations to protect mangrove biodiversity and ecosystem services. 
+::: columns
+::: {.column width="15%"}
+<img src="images/Tin_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+**Kristine (Tin) Buenafe**: Tin, is a quantitative marine ecologist from the Philippines. Her research focuses on developing ways of designing more connected, climate-smart protected area networks.
+:::
+:::
 
-### Kris Jypson Esturas
-Kris is a research assistant with the team. His previous research has focussed on leveraging climate adaptation hotpspots in the design of climate-smart protected areas
+::: columns
+::: {.column width="15%"}
+<img src="images/Alvise_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+**Alvise Dabalà**: Alvise is a spatial ecologist with experience developing spatial prioritisations for the Atlantic Ocean. His current research focuses on developing climate-smart and connected spatial prioritisations to protect mangrove biodiversity and ecosystem services. 
+:::
+:::
 
-### Aharon Fluery
-Aharon is an environmental scientist with experience in academia and industry. His current research focuses on better incorporating impact on conservation targets to avoid selection of residual reserves.
+::: columns
+::: {.column width="15%"}
+<img src="images/Kris_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+**Kris Jypson Esturas**: Kris is a research assistant with the team. His previous research has focussed on leveraging climate adaptation hotpspots in the design of climate-smart protected areas
+:::
+:::
 
-### Sandra Neubert
-Sandra is a marine data scientist with an interest in marine spatial planning. Her research focuses on developing multiple-use approaches to designing protected areas and assessing their costs and benefits from an ecological and economic perspective.
+::: columns
+::: {.column width="15%"}
+<img src="images/Aharon_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+**Aharon Fluery**: Aharon is an environmental scientist with experience in academia and industry. His current research focuses on better incorporating impact on conservation targets to avoid selection of residual reserves.
+:::
+:::
+
+::: columns
+::: {.column width="15%"}
+<img src="images/Sandra_round.png" style="width: 80%; object-fit: contain"/>
+:::
+::: {.column width="85%"}
+**Sandra Neubert**: Sandra is a marine data scientist with an interest in marine spatial planning. Her research focuses on developing multiple-use approaches to designing protected areas and assessing their costs and benefits from an ecological and economic perspective.
+:::
+:::
