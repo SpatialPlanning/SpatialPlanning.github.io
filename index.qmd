@@ -92,7 +92,7 @@ We co-design planning solutions, with our partners, that support biodiversity co
 <img src="images/Aharon_round.png" style="width: 80%; object-fit: contain"/>
 :::
 ::: {.column width="85%"}
-**Aharon Fluery**: Aharon is an environmental scientist with experience in academia and industry. His current research focuses on better incorporating impact on conservation targets to avoid selection of residual reserves.
+**Aharon Fleury**: Aharon is an environmental scientist with experience in academia and industry. His current research focuses on better incorporating impact on conservation targets to avoid selection of residual reserves.
 :::
 :::
 
