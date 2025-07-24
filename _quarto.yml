@@ -10,12 +10,12 @@ website:
         href: index.qmd
       - text: _shinyplanr_
         href: shinyplanr.qmd
-      - text: Deployments
+      - text: Where we work
         menu:
           - text: Weddell Sea
-            href: realTime/WeddellSea.qmd
-          - text: Kosrae
-            href: realTime/Kosrae.qmd
+            href: whereWeWork/WeddellSea.qmd
+          - text: Kosrae & Vanuatu
+            href: whereWeWork/Kosrae.qmd
       - text: Planning Aspects
         href: elements.qmd
       - text: Other Tools
