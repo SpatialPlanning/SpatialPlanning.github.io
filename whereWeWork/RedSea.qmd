@@ -1,0 +1,9 @@
+---
+title: ""
+---
+
+## shinyplanr in The Red Sea
+
+![](images/){.float-right .lightbox width=40%}
+
+We are starting a new project with the King Abdullah University of Science and Technology – Beacon Development (KBD) to implement _shinyplanr_ in the Red Sea. 
