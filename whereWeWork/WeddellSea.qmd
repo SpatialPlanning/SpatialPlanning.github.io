@@ -12,7 +12,7 @@ This initiative represents the most rapidly developed network of marine protecte
 During this process we worked closely with our partners - [The Norwegian Polar Institute](https://npolar.no/en/) - to tailor the app to their needs. The App used data from [The WSMPA Phase 2 Atlas](https://tryggve.npolar.no/web/maudatlas/Atlas.html) that was the result of an international collaborative effort. During the process we led virtual stakeholder workshops (during COVID) to guide scientists and policy makers through the App to better understand the spatial planning process. 
 
 :::{.callout-note title="Where it all began"}
-This was the original! The work we undertook on this initial App for the Weddell Sea kick-started the development of our highly customisable and relocatable [**_shinyplanr_**](shinyplanr.html) app that is deployed today in regions in the Indo-Pacific, including [Kosrae](whereWeWork/Kosrae.html).
+This was the original! The work we undertook on this initial App for the Weddell Sea kick-started the development of our highly customisable and relocatable [**_shinyplanr_**](shinyplanr.html) app that is deployed today in regions in the Indo-Pacific, including [Kosrae](whereWeWork/Kosrae.html) and [Fiji](whereWeWork/Fiji.html).
 :::
 
 ## Explore the App
