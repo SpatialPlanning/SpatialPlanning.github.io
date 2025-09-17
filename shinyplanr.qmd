@@ -40,5 +40,5 @@ Built on robust science and the proven R language and _prioritizr_ engine, **_sh
 
 **Rich functionality**: Built in R with prioritizr, **_shinyplanr_** offers all the power of Marxan — and then some.
 
-**Scalable and customisable**: From tiny areas such as [Kosrae](realTime/Kosrae.html) in Federated States of Micronesia, to vast regions such as the [Weddell Sea](realTime/WeddellSea.html), shinyplanr adapts to your geography, language, and data.
+**Scalable and customisable**: From tiny areas such as [Kosrae](whereWeWork/Kosrae.html) in Federated States of Micronesia, to vast regions such as the [Weddell Sea](whereWeWork/WeddellSea.html), shinyplanr adapts to your geography, language, and data.
 

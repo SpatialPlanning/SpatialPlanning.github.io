@@ -2,7 +2,7 @@
 title: ""
 ---
 
-## shinyplanr in Kosrae and Vanuatu
+## *shinyplanr* in Kosrae and Vanuatu
 
 ![](images/WaittUQ.jpg){.float-right .lightbox width=40%}
 
