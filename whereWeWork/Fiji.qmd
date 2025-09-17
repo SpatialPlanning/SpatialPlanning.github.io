@@ -4,8 +4,8 @@ title: ""
 
 ## *shinyplanr* in Fiji
 
-![](images/WaittUQ.jpg){.float-right .lightbox width=40%}
+![](images/BPF_Logo.jpeg){.float-right .lightbox width=30%}
 
-Blue Prosperity Fiji is a Government-led initiative supported by a Fiji-based team and the Waitt Institute, focusing on sustainable ocean management of 100% of Fiji's ocean and at least 30% full protection of Fiji's waters in marine protected areas. The program emphasizes sustainable fisheries management and development of Fiji's ocean industries through Blue Economy initiatives, incorporating community engagement, scientific research, and traditional knowledge to improve long-term economic stability, livelihoods, and ocean ecosystems.
+[Blue Prosperity Fiji](https://www.blueprosperityfiji.org) is a Government-led initiative supported by a Fiji-based team and the [Waitt Institute](https://www.waittinstitute.org), focusing on sustainable ocean management of 100% of Fiji's ocean and at least 30% full protection of Fiji's waters in marine protected areas. The program emphasizes sustainable fisheries management and development of Fiji's ocean industries through Blue Economy initiatives, incorporating community engagement, scientific research, and traditional knowledge to improve long-term economic stability, livelihoods, and ocean ecosystems.
 
 **_shinyplanr_** brings cutting-edge spatial planning capabilities to Fiji's ambitious ocean management goals. The app's flexible framework allows stakeholders to model different scenarios for achieving 30% marine protection while balancing economic development and community needs. Through multi-sectoral partnerships with NGOs, academia, and the private sector, **_shinyplanr_** facilitates collaborative decision-making by providing clear visualizations of trade-offs and enabling rapid iteration of planning scenarios that support both conservation objectives and Blue Economy development across Fiji's extensive marine territories.
