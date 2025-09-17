@@ -14,8 +14,12 @@ website:
         menu:
           - text: Weddell Sea
             href: whereWeWork/WeddellSea.qmd
-          - text: Kosrae & Vanuatu
+          - text: Kosrae
             href: whereWeWork/Kosrae.qmd
+          - text: Fiji
+            href: whereWeWork/Fiji.qmd
+          - text: Vanuatu
+            href: whereWeWork/Vanuatu.qmd
       - text: Planning Aspects
         href: elements.qmd
       - text: Other Tools

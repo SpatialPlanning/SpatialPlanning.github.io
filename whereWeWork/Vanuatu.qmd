@@ -1,0 +1,11 @@
+---
+title: ""
+---
+
+## *shinyplanr* in Vanuatu
+
+![](images/WaittUQ.jpg){.float-right .lightbox width=40%}
+
+Blue Prosperity Vanuatu is a government-led initiative to strengthen sustainable ocean management and support a healthy, thriving community and a bright future for the people of Vanuatu. This partnership between the Government of Vanuatu and the Waitt Institute began with a Memorandum of Understanding in February 2023. The program supports the National Ocean Policy, sustainable ocean management, and full protection of 30% of Vanuatu's marine waters, while collaborating with existing ocean management efforts by communities, regional organisations, technical agencies, and non-governmental organisations.
+
+In Vanuatu, **_shinyplanr_** serves as a powerful tool for engaging diverse stakeholders in marine spatial planning processes. The app's real-time scenario testing capabilities allow government officials, community leaders, and conservation groups to explore different protection strategies and understand their trade-offs instantly. With its transparent, user-driven approach, **_shinyplanr_** helps build consensus around marine protection goals while ensuring that local knowledge and community needs are integrated into science-based spatial planning decisions.
