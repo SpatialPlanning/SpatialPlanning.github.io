@@ -4,8 +4,11 @@ title: ""
 
 ## *shinyplanr* in Kosrae
 
-![](images/WaittUQ.jpg){.float-right .lightbox width=40%}
+![](images/BPM_Logo.png){.float-right .lightbox width=40%}
 
-Blue Prosperity Micronesia is a government-led initiative working across the Federated States of Micronesia (FSM) to optimize ocean uses, protect 30% of FSM's waters, strengthen fisheries management, and support marine industry development. This holistic approach, based on best available science and stakeholder participation, aims to build a healthier marine environment for future generations. Since launching in July 2019, the program has made significant strides towards better ocean management for increased ocean health, food security, economic opportunity and climate change resilience in this small island state of just 195 km².
+[Blue Prosperity Micronesia](https://www.blueprosperitymicronesia.org) is a government-led initiative working across the Federated States of Micronesia (FSM) to optimize ocean uses, protect 30% of FSM's waters, strengthen fisheries management, and support marine industry development. This holistic approach, based on best available science and stakeholder participation, aims to build a healthier marine environment for future generations. Since launching in July 2019, the program has made significant strides towards better ocean management for increased ocean health, food security, economic opportunity and climate change resilience in this small island state of just 195 km².
+
+
+![](images/WaittUQ.jpg){.float-left .lightbox width=40%}
 
 **_shinyplanr_** has been deployed in Kosrae as part of our collaboration with the [Waitt Institute](https://www.waittinstitute.org) and the [Blue Prosperity Coalition](https://www.blueprosperity.org). The app puts spatial planning power directly into stakeholders' hands, allowing them to test scenarios, explore trade-offs, and make decisions in real time. Built on robust science and the proven R language, **_shinyplanr_** helps overcome the delays and disconnects of traditional marine spatial planning by providing transparent, user-driven decision-making tools that require no prior spatial planning experience.
