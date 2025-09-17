@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "whereWeWork/Vanuatu.html",
+    "href": "whereWeWork/Vanuatu.html",
+    "title": "Spatial Planning @ UQ",
+    "section": "",
+    "text": "Blue Prosperity Vanuatu is a government-led initiative to strengthen sustainable ocean management and support a healthy, thriving community and a bright future for the people of Vanuatu. This partnership between the Government of Vanuatu and the Waitt Institute began with a Memorandum of Understanding in February 2023. The program supports the National Ocean Policy, sustainable ocean management, and full protection of 30% of Vanuatu’s marine waters, while collaborating with existing ocean management efforts by communities, regional organisations, technical agencies, and non-governmental organisations.\nIn Vanuatu, shinyplanr serves as a powerful tool for engaging diverse stakeholders in marine spatial planning processes. The app’s real-time scenario testing capabilities allow government officials, community leaders, and conservation groups to explore different protection strategies and understand their trade-offs instantly. With its transparent, user-driven approach, shinyplanr helps build consensus around marine protection goals while ensuring that local knowledge and community needs are integrated into science-based spatial planning decisions."
+  },
+  {
+    "objectID": "whereWeWork/Vanuatu.html#shinyplanr-in-vanuatu",
+    "href": "whereWeWork/Vanuatu.html#shinyplanr-in-vanuatu",
+    "title": "Spatial Planning @ UQ",
+    "section": "",
+    "text": "Blue Prosperity Vanuatu is a government-led initiative to strengthen sustainable ocean management and support a healthy, thriving community and a bright future for the people of Vanuatu. This partnership between the Government of Vanuatu and the Waitt Institute began with a Memorandum of Understanding in February 2023. The program supports the National Ocean Policy, sustainable ocean management, and full protection of 30% of Vanuatu’s marine waters, while collaborating with existing ocean management efforts by communities, regional organisations, technical agencies, and non-governmental organisations.\nIn Vanuatu, shinyplanr serves as a powerful tool for engaging diverse stakeholders in marine spatial planning processes. The app’s real-time scenario testing capabilities allow government officials, community leaders, and conservation groups to explore different protection strategies and understand their trade-offs instantly. With its transparent, user-driven approach, shinyplanr helps build consensus around marine protection goals while ensuring that local knowledge and community needs are integrated into science-based spatial planning decisions."
+  },
+  {
     "objectID": "whereWeWork/WeddellSea.html",
     "href": "whereWeWork/WeddellSea.html",
     "title": "Spatial Planning @ UQ",
@@ -158,13 +172,27 @@
     "href": "whereWeWork/Kosrae.html",
     "title": "Spatial Planning @ UQ",
     "section": "",
-    "text": "For the past two years, we have been working with the Waitt Institute as part of the Blue Prosperity Coalition. The Waitt Institute partners with governments and communities to develop sustainable, science-based spatial plans that balance conservation, livelihoods, and cultural values. Together, we have rapidly developed shinyplanr and deployed it for use in target island states such as Kosrae in the Federated States of Micronesia, a small island state (195 km2). shinyplanr is currently being used to engage stakeholders in Kosrae, and help to teach them about the spatial planning process. You can read more about our ongoing collaboration."
+    "text": "Blue Prosperity Micronesia is a government-led initiative working across the Federated States of Micronesia (FSM) to optimize ocean uses, protect 30% of FSM’s waters, strengthen fisheries management, and support marine industry development. This holistic approach, based on best available science and stakeholder participation, aims to build a healthier marine environment for future generations. Since launching in July 2019, the program has made significant strides towards better ocean management for increased ocean health, food security, economic opportunity and climate change resilience in this small island state of just 195 km².\nshinyplanr has been deployed in Kosrae as part of our collaboration with the Waitt Institute and the Blue Prosperity Coalition. The app puts spatial planning power directly into stakeholders’ hands, allowing them to test scenarios, explore trade-offs, and make decisions in real time. Built on robust science and the proven R language, shinyplanr helps overcome the delays and disconnects of traditional marine spatial planning by providing transparent, user-driven decision-making tools that require no prior spatial planning experience."
   },
   {
-    "objectID": "whereWeWork/Kosrae.html#shinyplanr-in-kosrae-and-vanuatu",
-    "href": "whereWeWork/Kosrae.html#shinyplanr-in-kosrae-and-vanuatu",
+    "objectID": "whereWeWork/Kosrae.html#shinyplanr-in-kosrae",
+    "href": "whereWeWork/Kosrae.html#shinyplanr-in-kosrae",
     "title": "Spatial Planning @ UQ",
     "section": "",
-    "text": "For the past two years, we have been working with the Waitt Institute as part of the Blue Prosperity Coalition. The Waitt Institute partners with governments and communities to develop sustainable, science-based spatial plans that balance conservation, livelihoods, and cultural values. Together, we have rapidly developed shinyplanr and deployed it for use in target island states such as Kosrae in the Federated States of Micronesia, a small island state (195 km2). shinyplanr is currently being used to engage stakeholders in Kosrae, and help to teach them about the spatial planning process. You can read more about our ongoing collaboration."
+    "text": "Blue Prosperity Micronesia is a government-led initiative working across the Federated States of Micronesia (FSM) to optimize ocean uses, protect 30% of FSM’s waters, strengthen fisheries management, and support marine industry development. This holistic approach, based on best available science and stakeholder participation, aims to build a healthier marine environment for future generations. Since launching in July 2019, the program has made significant strides towards better ocean management for increased ocean health, food security, economic opportunity and climate change resilience in this small island state of just 195 km².\nshinyplanr has been deployed in Kosrae as part of our collaboration with the Waitt Institute and the Blue Prosperity Coalition. The app puts spatial planning power directly into stakeholders’ hands, allowing them to test scenarios, explore trade-offs, and make decisions in real time. Built on robust science and the proven R language, shinyplanr helps overcome the delays and disconnects of traditional marine spatial planning by providing transparent, user-driven decision-making tools that require no prior spatial planning experience."
+  },
+  {
+    "objectID": "whereWeWork/Fiji.html",
+    "href": "whereWeWork/Fiji.html",
+    "title": "Spatial Planning @ UQ",
+    "section": "",
+    "text": "Blue Prosperity Fiji is a Government-led initiative supported by a Fiji-based team and the Waitt Institute, focusing on sustainable ocean management of 100% of Fiji’s ocean and at least 30% full protection of Fiji’s waters in marine protected areas. The program emphasizes sustainable fisheries management and development of Fiji’s ocean industries through Blue Economy initiatives, incorporating community engagement, scientific research, and traditional knowledge to improve long-term economic stability, livelihoods, and ocean ecosystems.\nshinyplanr brings cutting-edge spatial planning capabilities to Fiji’s ambitious ocean management goals. The app’s flexible framework allows stakeholders to model different scenarios for achieving 30% marine protection while balancing economic development and community needs. Through multi-sectoral partnerships with NGOs, academia, and the private sector, shinyplanr facilitates collaborative decision-making by providing clear visualizations of trade-offs and enabling rapid iteration of planning scenarios that support both conservation objectives and Blue Economy development across Fiji’s extensive marine territories."
+  },
+  {
+    "objectID": "whereWeWork/Fiji.html#shinyplanr-in-fiji",
+    "href": "whereWeWork/Fiji.html#shinyplanr-in-fiji",
+    "title": "Spatial Planning @ UQ",
+    "section": "",
+    "text": "Blue Prosperity Fiji is a Government-led initiative supported by a Fiji-based team and the Waitt Institute, focusing on sustainable ocean management of 100% of Fiji’s ocean and at least 30% full protection of Fiji’s waters in marine protected areas. The program emphasizes sustainable fisheries management and development of Fiji’s ocean industries through Blue Economy initiatives, incorporating community engagement, scientific research, and traditional knowledge to improve long-term economic stability, livelihoods, and ocean ecosystems.\nshinyplanr brings cutting-edge spatial planning capabilities to Fiji’s ambitious ocean management goals. The app’s flexible framework allows stakeholders to model different scenarios for achieving 30% marine protection while balancing economic development and community needs. Through multi-sectoral partnerships with NGOs, academia, and the private sector, shinyplanr facilitates collaborative decision-making by providing clear visualizations of trade-offs and enabling rapid iteration of planning scenarios that support both conservation objectives and Blue Economy development across Fiji’s extensive marine territories."
   }
 ]
