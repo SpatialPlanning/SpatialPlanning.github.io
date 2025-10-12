@@ -17,7 +17,7 @@ This was the original! The work we undertook on this initial App for the Weddell
 
 ## Explore the App
 
-You can explore the Weddell Sea Phase 2 App [here](https://mathmarecol.shinyapps.io/WSMPA2/) or check out the screenshots below.
+You can explore the Weddell Sea Phase 2 App [here](https://spatialplanning.shinyapps.io/WSMPA2/) or check out the screenshots below.
 
 ::: columns
 
