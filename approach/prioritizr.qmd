@@ -1,0 +1,123 @@
+---
+title: "Decision Support Tools"
+---
+
+## Why use _prioritizr_?
+
+![](images/prioritizr.png){width=20% .lightbox group="shiny" .float-right fig-alt="prioritizr package"}
+
+Systematic conservation planning requires sophisticated decision support tools to identify where conservation actions will be most effective. With limited resources and competing demands on land and sea, planners need software that can optimise complex trade-offs between biodiversity protection, cost-effectiveness, connectivity, climate resilience, and human use. The choice of decision support tool fundamentally shapes the quality, feasibility, and defensibility of spatial plans.
+
+The [_prioritizr_](https://prioritizr.net) R package is our foundation for systematic conservation planning. We use [_prioritizr_](https://prioritizr.net) because it combines mathematical rigour with practical flexibility: it uses exact algorithms to guarantee optimal solutions, offers unprecedented flexibility in problem formulation through mixed-integer linear programming, can solve problems extremely fast (often in seconds), and provides advanced features like connectivity penalties and the ability to generate solutions within a specified optimality gap. Its R package format allows seamless integration with our broader analytical workflows, custom data processing pipelines, and the interactive [_shinyplanr_](shinyplanr.html) application we deploy with partners worldwide.
+
+### The mathematical advantage: Exact optimisation vs heuristics
+
+The fundamental distinction between [_prioritizr_](https://prioritizr.net) and other conservation planning tools lies in its mathematical approach. [_prioritizr_](https://prioritizr.net) formulates conservation problems as **mixed-integer linear programs (MILP)**, which are solved using exact mathematical algorithms. This stands in contrast to tools like [Marxan](https://marxansolutions.org/) that rely on **simulated annealing**, a heuristic search method.
+
+**What this means in practice:**
+
+- **Guaranteed optimality**: When [_prioritizr_](https://prioritizr.net) solves a problem to completion, the solution is mathematically proven to be optimal—no better solution exists given the specified objectives and constraints. Heuristic methods like simulated annealing can only guarantee that they've found a "good" solution, but cannot prove whether a better one exists.
+
+- **Quantified optimality gap**: [_prioritizr_](https://prioritizr.net) allows you to specify an acceptable optimality gap (e.g., 0% for the absolute best solution, or 5% to allow solutions within 5% of optimal). The solver then works systematically to find a solution meeting this criterion. This provides scientific transparency and allows planners to balance solution quality against computation time for large problems.
+
+- **Reproducibility**: Exact algorithms produce the same solution every time for a given problem formulation, enhancing scientific reproducibility and transparency in decision-making. Heuristic methods produce different solutions on each run, requiring multiple runs and careful interpretation of result variability.
+
+- **No parameter tuning**: Simulated annealing and other heuristics require careful tuning of algorithmic parameters (cooling schedules, iteration counts, etc.) to achieve feasible solutions. [_prioritizr_](https://prioritizr.net)'s MILP solvers require no such tuning—the mathematical formulation directly ensures feasibility when solutions exist.
+
+This mathematical rigour is particularly important when spatial plans must withstand scientific scrutiny, legal challenges, or international review processes. The ability to demonstrate that a solution is provably optimal—or quantify exactly how close it is to optimal—provides a level of defensibility that heuristic approaches cannot match.
+
+### Speed and scalability
+
+Despite the mathematical complexity of exact optimisation, [_prioritizr_](https://prioritizr.net) is remarkably fast. Modern MILP solvers (particularly commercial solvers like [Gurobi](https://www.gurobi.com/) and [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio/cplex-optimizer), which [_prioritizr_](https://prioritizr.net) supports alongside open-source alternatives) employ sophisticated algorithms that can solve large-scale conservation problems in seconds to minutes.
+
+
+### Flexibility and advanced features
+
+[_prioritizr_](https://prioritizr.net) offers exceptional flexibility in problem formulation, going well beyond the capabilities of traditional conservation planning software:
+
+**1. Multiple problem types and objectives:** 
+
+- Minimum set problems (minimise cost while meeting targets)
+- Maximum coverage problems (maximise coverage within a budget)
+- Maximum utility problems (maximise overall benefit)
+- Maximum features problems (protect maximum number of features)
+- Minimum largest shortfall problems (minimise the largest target shortfall)
+
+This flexibility allows planners to frame questions differently depending on the context: "What's the cheapest way to meet our targets?" versus "What's the most biodiversity we can protect with this budget?"
+
+**2. Explicit connectivity and spatial structure:**
+
+- Built-in penalties for boundary length (favouring compact, connected solutions)
+- Explicit connectivity constraints that can link planning units based on functional connectivity, larval dispersal, or species movement patterns
+- Support for asymmetric connectivity (e.g., directional ocean currents)
+
+These features are essential for our [climate-smart planning](approach/elements.html#climate-smart) work, where we design protected area networks that account for species movement and shifts under climate change ([Buenafe et al. 2023](publications.html), [Brito-Morales et al. 2022](publications.html)).
+
+**3. Multiple zones and allocation:**
+
+- Native support for zoning problems where planning units can be assigned to different management categories (e.g., no-take reserves, sustainable use areas, fishing zones)
+- This is critical for our [multiple-use planning](approach/elements.html#multiple-use) work, where we balance conservation with economic activities like fisheries, tourism, and renewable energy
+
+**4. Advanced constraints:**
+
+- Locked in/out constraints for existing protected areas or excluded areas
+- Neighbour constraints
+- Feature contiguity requirements
+- Linear/nonlinear constraints on objectives
+
+**5. Integration with other analyses:**
+
+As an R package, [_prioritizr_](https://prioritizr.net) integrates seamlessly with other workflows including:
+
+- Spatial data processing ([_sf_](https://r-spatial.github.io/sf/), [_terra_](https://rspatial.org/))
+- Climate data analysis ([_hotrstuff_](https://snbuenafe.github.io/hotrstuff/))
+- Economic valuation of [ecosystem services](approach/elements.html#ecosystem-services)
+- Our own [_spatialplanr_](tools.html#r-package-spatialplanr) package for streamlined access to global datasets
+
+This integration enables our team to develop sophisticated, data-driven planning workflows that would be impossible with standalone, closed-source software.
+
+**6. Transparency and trust:**
+
+- Clear mathematical formulation makes objectives and trade-offs explicit
+- Results are reproducible and defensible
+- Stakeholders can understand what drives the solution (which features or constraints are most influential)
+
+
+### Comparison with other conservation planning tools
+
+| Feature | prioritizr | Marxan | Zonation | CLUZ |
+|---------|-----------|---------|----------|------|
+| **Optimisation approach** | Exact (MILP) | Heuristic (simulated annealing) | Heuristic (greedy algorithm) | Integer programming |
+| **Guaranteed optimal solution** | Yes (or known gap) | No | No | Limited |
+| **Parameter tuning required** | No | Yes (extensive) | Moderate | Minimal |
+| **Solution reproducibility** | Perfect | Variable | Good | Good |
+| **Speed** | Seconds to minutes | Minutes to hours | Seconds to minutes | Minutes |
+| **Multiple objectives/zones** | Yes (native support) | Limited (Marxan with Zones) | Limited | Limited |
+| **Connectivity penalties** | Yes (flexible) | Yes (basic) | Yes (hierarchy-based) | No |
+| **Open source** | Yes (R) | Yes (C++) | No (commercial) | Yes (QGIS plugin) |
+| **Programmatic workflows** | Excellent | Limited | Limited | Limited |
+| **Integration with R ecosystem** | Native | Via external scripts | Limited | No |
+| **Maximum problem size** | Very large (>1M units)* | Large (~100K units) | Large (~100K units) | Medium (~50K units) |
+
+\* Performance depends on available solver; commercial solvers (Gurobi, CPLEX) handle larger problems faster than open-source alternatives
+
+### Why _prioritizr_ underpins our work
+
+Our choice of [_prioritizr_](https://prioritizr.net) as the foundation for our spatial planning work, including [**_shinyplanr_**](shinyplanr.html), is driven by the need to deliver:
+
+1. **Scientifically defensible plans**: The mathematical guarantee of optimality (or known gap) provides scientific rigour essential for plans that must withstand peer review, policy scrutiny, and legal challenges.
+
+2. **Real-time stakeholder engagement**: Speed enables genuine participatory planning where stakeholders can explore scenarios, understand trade-offs, and build consensus through direct interaction with the planning tool.
+
+3. **Climate-smart conservation**: Advanced connectivity features and flexible problem formulation enable us to design protected area networks that account for species movement, climate velocity, and future distribution shifts—essential for conservation effectiveness under climate change.
+
+4. **Multiple-use planning**: Native support for zoning problems allows us to balance biodiversity conservation with economic activities, designing plans that are both ecologically effective and economically feasible.
+
+5. **Reproducible science**: Perfect reproducibility and transparent mathematical formulation enable our work to be verified, replicated, and built upon by the broader conservation community.
+
+6. **Rapid innovation**: As an actively developed R package, [_prioritizr_](https://prioritizr.net) continuously incorporates the latest advances in optimisation algorithms and conservation science, ensuring our planning methods remain at the cutting edge.
+
+These capabilities have enabled our team to deliver spatial planning solutions across diverse contexts—from small tropical islands ([Kosrae](whereWeWork/Kosrae.html), [Fiji](whereWeWork/Fiji.html)) to entire ocean basins ([Red Sea](whereWeWork/RedSea.html), [Weddell Sea](whereWeWork/WeddellSea.html))—while maintaining scientific rigour and stakeholder engagement throughout the planning process.
+
+For researchers and practitioners seeking a conservation planning tool that combines mathematical rigour, practical speed, analytical flexibility, and stakeholder accessibility, [_prioritizr_](https://prioritizr.net) represents the current state-of-the-art in systematic conservation planning software.
+

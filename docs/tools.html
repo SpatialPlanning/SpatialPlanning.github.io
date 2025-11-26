@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>We develop many science-based tools – Spatial Planning @ UQ</title>
+<title>Tools we develop – Spatial Planning @ UQ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,21 +123,32 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./elements.html"> 
-<span class="menu-text">Planning Aspects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-planning-approach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Planning Approach</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-planning-approach">    
+        <li>
+    <a class="dropdown-item" href="./approach/prioritizr.html">
+ <span class="dropdown-text">Decision Support Tools</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./approach/elements.html">
+ <span class="dropdown-text">Research Focus</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./tools.html" aria-current="page"> 
-<span class="menu-text">Other Tools</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Our Tools</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./services.html"> 
 <span class="menu-text">Our Services</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -163,11 +174,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="4">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tuna-spawning-areas" id="toc-tuna-spawning-areas" class="nav-link active" data-scroll-target="#tuna-spawning-areas">Tuna spawning areas</a></li>
+  <li><a href="#r-package-spatialplanr" id="toc-r-package-spatialplanr" class="nav-link active" data-scroll-target="#r-package-spatialplanr">R package: <em>spatialplanr</em></a></li>
+  <li><a href="#r-package-hotrstuff" id="toc-r-package-hotrstuff" class="nav-link" data-scroll-target="#r-package-hotrstuff">R package: <em>hotrstuff</em></a></li>
+  <li><a href="#r-package-minpatch" id="toc-r-package-minpatch" class="nav-link" data-scroll-target="#r-package-minpatch">R package: <em>minpatch</em></a></li>
+  <li><a href="#tuna-spawning-areas" id="toc-tuna-spawning-areas" class="nav-link" data-scroll-target="#tuna-spawning-areas">Tuna spawning areas</a></li>
   <li><a href="#oceanographic-data-analysis" id="toc-oceanographic-data-analysis" class="nav-link" data-scroll-target="#oceanographic-data-analysis">Oceanographic data analysis</a></li>
   </ul>
 </nav>
@@ -177,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">We develop many science-based tools</h1>
+<h1 class="title">Tools we develop</h1>
 </div>
 
 
@@ -194,13 +208,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>We develop a range of science-based tools for spatial planning and oceanographic analysis.</p>
+<section id="r-package-spatialplanr" class="level2">
+<h2 class="anchored" data-anchor-id="r-package-spatialplanr">R package: <em>spatialplanr</em></h2>
+<p><a href="images/spatialplanr.png" class="lightbox" data-gallery="shiny"><img src="images/spatialplanr.png" class="float-right img-fluid" style="width:20.0%" alt="spatialplanr package"></a></p>
+<p>The <a href="https://spatialplanning.github.io/spatialplanr"><code>spatialplanr</code></a> R package is designed to streamline spatial conservation prioritization by providing easy access to key global datasets and simplifying complex planning workflows. Building upon the powerful <code>prioritizr</code> package, <code>spatialplanr</code> removes common barriers to effective conservation planning by offering convenient functions for accessing and processing essential data sources, including the World Database on Protected Areas (WDPA), IUCN Red List species data, and Global Fishing Watch fishing effort data. The package also provides tools for assigning conservation targets to spatial prioritizations, ensuring that planning efforts are grounded in best-practice conservation principles.</p>
+<p>Beyond data access, <code>spatialplanr</code> offers functionality for incorporating climate considerations, connectivity analysis, and other advanced planning features into conservation workflows. The package helps planners design robust protected area networks by facilitating the integration of multiple data streams, from biodiversity distributions to human use patterns and environmental variables. While currently in active development, <code>spatialplanr</code> represents a significant step toward making comprehensive, data-driven spatial planning accessible to conservation practitioners worldwide.</p>
+</section>
+<section id="r-package-hotrstuff" class="level2">
+<h2 class="anchored" data-anchor-id="r-package-hotrstuff">R package: <em>hotrstuff</em></h2>
+<p><a href="images/hotrstuff.png" class="lightbox" data-gallery="shiny"><img src="images/hotrstuff.png" class="float-left img-fluid" style="width:20.0%" alt="hotrstuff package"></a></p>
+<p>The <a href="https://snbuenafe.github.io/hotrstuff/"><code>hotrstuff</code></a> R package facilitates the rapid download, wrangling, and processing of Earth System Model (ESM) output from the Coupled Model Intercomparison Project Phase 6 (CMIP6). Climate projections from CMIP6 are essential for understanding future ocean conditions and designing climate-smart conservation strategies, yet accessing and processing this data has traditionally required specialized technical expertise and software. <code>hotrstuff</code> removes these barriers by leveraging the power of Climate Data Operators (CDO) within the R environment, making advanced climate data processing accessible to conservation practitioners and researchers.</p>
+<p>The package streamlines complex climate data workflows with intuitive functions for downloading CMIP6 data, merging files, regridding to custom resolutions, slicing to specific timeframes, and changing temporal frequency (e.g., from monthly to yearly averages). It also enables calculation of vertical means for depth-resolved ESMs and creation of ensemble statistics across multiple models or scenarios. By simplifying access to state-of-the-art climate projections, <code>hotrstuff</code> empowers planners to incorporate robust climate information into conservation decisions—supporting the development of protected area networks that remain effective under future environmental conditions. While currently experimental, this tool represents a significant step toward democratizing climate data for conservation applications.</p>
+</section>
+<section id="r-package-minpatch" class="level2">
+<h2 class="anchored" data-anchor-id="r-package-minpatch">R package: <em>minpatch</em></h2>
+<p>The <a href="https://spatialplanning.github.io/minpatch/"><code>minpatch</code></a> R package implements the MinPatch algorithm for post-processing conservation planning solutions to ensure all protected areas meet user-defined minimum size thresholds. This addresses a critical practical constraint in protected area design: while optimization algorithms like <code>prioritizr</code> excel at identifying cost-effective solutions, they may produce fragmented patches that are too small to be ecologically viable or practically manageable.</p>
+<p>Based on the methodology described in Smith et al.&nbsp;(2010), <code>minpatch</code> systematically adjusts conservation solutions by iteratively evaluating and modifying protected area patches until all meet specified minimum size requirements. This ensures that final protected area networks are not only optimized for biodiversity representation and cost-effectiveness, but also consist of patches large enough to support viable populations, facilitate management, and withstand edge effects. The package integrates seamlessly with <code>prioritizr</code> outputs, though it can work with any binary conservation solution raster. By bridging the gap between theoretical optimization and on-ground implementation constraints, <code>minpatch</code> helps deliver conservation plans that are both scientifically sound and practically feasible. Note that this package is still under active development.</p>
+</section>
 <section id="tuna-spawning-areas" class="level2">
 <h2 class="anchored" data-anchor-id="tuna-spawning-areas">Tuna spawning areas</h2>
-<p><a href="images/LarvalTuna.png" class="lightbox" data-gallery="shiny" title="Larval Tuna HotSpots"><img src="images/LarvalTuna.png" class="float-right img-fluid" style="width:40.0%" alt="Larval Tuna HotSpots"></a> The spawning of commercial species of tuna and billfish is a key ecosystem service. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged it to develop a suite of distribution models based on machine learning. These distribution models revealed consistent patterns in spawning timing and location. Despite the vastness of the ocean, many species co-located their spawning, likely due to shared benefits such as favourable larval conditions. Tropical species spawn widely year-round, while temperate species show more restricted patterns. These findings offer valuable insights for fisheries management and marine spatial planning aimed at protecting spawning grounds. To facilitate uptake and use of the model outputs, we developed a <a href="https://spatialplanning.shinyapps.io/LarvalHotSpots/">Shiny App</a> to allow users to interrogate the distribution models of spawning habitat .</p>
+<p><a href="images/LarvalTuna.png" class="lightbox" data-gallery="shiny"><img src="images/LarvalTuna.png" class="float-right img-fluid" style="width:40.0%" alt="Larval Tuna HotSpots"></a></p>
+<p>The spawning of commercial tuna and billfish species represents a critical ecosystem service essential to global fisheries. Understanding where and when these species spawn is vital for effective management and conservation. We digitised a near-global larval dataset for 15 large pelagic fish species (mainly tuna and billfish) and leveraged machine learning techniques to develop comprehensive distribution models of spawning habitat. These models revealed consistent patterns in spawning timing and location across species, with many co-locating their spawning grounds—likely due to shared environmental benefits such as optimal conditions for larval survival and development.</p>
+<p>The modelling showed distinct biogeographic patterns: tropical species spawn widely throughout the year across vast ocean regions, while temperate species exhibit more spatially and temporally restricted spawning behaviours. These insights have important implications for fisheries management and marine spatial planning, particularly for efforts aimed at protecting spawning grounds to ensure sustainable fish stocks. To make these research findings accessible and actionable, we developed an <a href="https://spatialplanning.shinyapps.io/LarvalHotSpots/">interactive Shiny App</a> that allows fisheries managers, conservation practitioners, and researchers to interrogate the distribution models, explore spawning hotspots, and download data for their own analyses.</p>
 </section>
 <section id="oceanographic-data-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="oceanographic-data-analysis">Oceanographic data analysis</h2>
-<p><a href="images/BioOceanObserver.png" class="lightbox" data-gallery="shiny" title="Biological Ocean Observer"><img src="images/BioOceanObserver.png" class="float-left img-fluid" style="width:40.0%" alt="Biological Ocean Observer"></a> The <a href="https://shiny.csiro.au/BioOceanObserver/">Biological Ocean Observer</a> integrates, analyses and visualises data from the Integrated Marine Observing System (IMOS) platforms around Australia, quickly allowing users to explore temporal and seasonal trends through plots for phytoplankton, zooplankton, larval fish and microbial data. The website makes it easier for scientists, industry, policy makers and the public to view and analyse trends in biological data to help understand our ocean estate.</p>
+<p><a href="images/BioOceanObserver.png" class="lightbox" data-gallery="shiny"><img src="images/BioOceanObserver.png" class="float-left img-fluid" style="width:40.0%" alt="Biological Ocean Observer"></a></p>
+<p>The <a href="https://shiny.csiro.au/BioOceanObserver/">Biological Ocean Observer</a> is an interactive web platform that integrates, analyses, and visualises biological oceanographic data from the Integrated Marine Observing System (IMOS) platforms around Australia. This tool addresses a critical need in ocean observation: making complex, high-volume biological data accessible and interpretable to diverse user communities. The platform enables users to quickly explore temporal and seasonal trends across multiple biological groups, including phytoplankton, zooplankton, larval fish, and microbial communities.</p>
+<p>By providing an intuitive interface for data exploration and analysis, the Biological Ocean Observer democratises access to Australia’s rich ocean monitoring datasets. Scientists can investigate ecological patterns, industry stakeholders can inform sustainable resource use, policy makers can make evidence-based decisions, and the public can better understand the state of Australia’s marine environment. The tool facilitates the translation of raw observational data into meaningful insights about ocean health, ecosystem function, and long-term environmental change—supporting informed stewardship of Australia’s ocean estate.</p>
 <!-- ## _spatialplanr_ -->
 <!-- ## Visualising global zooplankton biomass data -->
 <!-- We estimated zooplankton biomass using a statistical model that integrates all available in situ data while adjusting for sampling biases. By accounting for spatial and temporal autocorrelation, and incorporating environmental predictors such as chlorophyll-a and temperature, the model enabled estimates of zooplankton biomass in data-poor regions and times. Unlike spatial smoothing methods, our approach was better suited to the patchy global coverage of zooplankton data. We then developed a shiny app to visualise and download the data (https://jaseeverett.shinyapps.io/ZooMapExtract/). -->
