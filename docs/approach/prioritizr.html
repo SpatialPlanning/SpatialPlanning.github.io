@@ -153,11 +153,6 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:a.richardson1@uq.edu.au"> <i class="bi bi-envelope" role="img" aria-label="email">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/SpatialPlanning" target="_blank"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -183,8 +178,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#the-mathematical-advantage-exact-optimisation-vs-heuristics" id="toc-the-mathematical-advantage-exact-optimisation-vs-heuristics" class="nav-link" data-scroll-target="#the-mathematical-advantage-exact-optimisation-vs-heuristics">The mathematical advantage: Exact optimisation vs heuristics</a></li>
   <li><a href="#speed-and-scalability" id="toc-speed-and-scalability" class="nav-link" data-scroll-target="#speed-and-scalability">Speed and scalability</a></li>
   <li><a href="#flexibility-and-advanced-features" id="toc-flexibility-and-advanced-features" class="nav-link" data-scroll-target="#flexibility-and-advanced-features">Flexibility and advanced features</a></li>
-  <li><a href="#comparison-with-other-conservation-planning-tools" id="toc-comparison-with-other-conservation-planning-tools" class="nav-link" data-scroll-target="#comparison-with-other-conservation-planning-tools">Comparison with other conservation planning tools</a></li>
-  <li><a href="#why-prioritizr-underpins-our-work" id="toc-why-prioritizr-underpins-our-work" class="nav-link" data-scroll-target="#why-prioritizr-underpins-our-work">Why <em>prioritizr</em> underpins our work</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -278,121 +271,31 @@ ul.task-list li input[type="checkbox"] {
 <li>Results are reproducible and defensible</li>
 <li>Stakeholders can understand what drives the solution (which features or constraints are most influential)</li>
 </ul>
-</section>
-<section id="comparison-with-other-conservation-planning-tools" class="level3">
-<h3 class="anchored" data-anchor-id="comparison-with-other-conservation-planning-tools">Comparison with other conservation planning tools</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 24%">
-<col style="width: 20%">
-<col style="width: 22%">
-<col style="width: 13%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Feature</th>
-<th>prioritizr</th>
-<th>Marxan</th>
-<th>Zonation</th>
-<th>CLUZ</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Optimisation approach</strong></td>
-<td>Exact (MILP)</td>
-<td>Heuristic (simulated annealing)</td>
-<td>Heuristic (greedy algorithm)</td>
-<td>Integer programming</td>
-</tr>
-<tr class="even">
-<td><strong>Guaranteed optimal solution</strong></td>
-<td>Yes (or known gap)</td>
-<td>No</td>
-<td>No</td>
-<td>Limited</td>
-</tr>
-<tr class="odd">
-<td><strong>Parameter tuning required</strong></td>
-<td>No</td>
-<td>Yes (extensive)</td>
-<td>Moderate</td>
-<td>Minimal</td>
-</tr>
-<tr class="even">
-<td><strong>Solution reproducibility</strong></td>
-<td>Perfect</td>
-<td>Variable</td>
-<td>Good</td>
-<td>Good</td>
-</tr>
-<tr class="odd">
-<td><strong>Speed</strong></td>
-<td>Seconds to minutes</td>
-<td>Minutes to hours</td>
-<td>Seconds to minutes</td>
-<td>Minutes</td>
-</tr>
-<tr class="even">
-<td><strong>Multiple objectives/zones</strong></td>
-<td>Yes (native support)</td>
-<td>Limited (Marxan with Zones)</td>
-<td>Limited</td>
-<td>Limited</td>
-</tr>
-<tr class="odd">
-<td><strong>Connectivity penalties</strong></td>
-<td>Yes (flexible)</td>
-<td>Yes (basic)</td>
-<td>Yes (hierarchy-based)</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td><strong>Open source</strong></td>
-<td>Yes (R)</td>
-<td>Yes (C++)</td>
-<td>No (commercial)</td>
-<td>Yes (QGIS plugin)</td>
-</tr>
-<tr class="odd">
-<td><strong>Programmatic workflows</strong></td>
-<td>Excellent</td>
-<td>Limited</td>
-<td>Limited</td>
-<td>Limited</td>
-</tr>
-<tr class="even">
-<td><strong>Integration with R ecosystem</strong></td>
-<td>Native</td>
-<td>Via external scripts</td>
-<td>Limited</td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td><strong>Maximum problem size</strong></td>
-<td>Very large (&gt;1M units)*</td>
-<td>Large (~100K units)</td>
-<td>Large (~100K units)</td>
-<td>Medium (~50K units)</td>
-</tr>
-</tbody>
-</table>
-<p>* Performance depends on available solver; commercial solvers (Gurobi, CPLEX) handle larger problems faster than open-source alternatives</p>
-</section>
-<section id="why-prioritizr-underpins-our-work" class="level3">
-<h3 class="anchored" data-anchor-id="why-prioritizr-underpins-our-work">Why <em>prioritizr</em> underpins our work</h3>
-<p>Our choice of <a href="https://prioritizr.net"><em>prioritizr</em></a> as the foundation for our spatial planning work, including <a href="shinyplanr.html"><strong><em>shinyplanr</em></strong></a>, is driven by the need to deliver:</p>
-<ol type="1">
-<li><p><strong>Scientifically defensible plans</strong>: The mathematical guarantee of optimality (or known gap) provides scientific rigour essential for plans that must withstand peer review, policy scrutiny, and legal challenges.</p></li>
-<li><p><strong>Real-time stakeholder engagement</strong>: Speed enables genuine participatory planning where stakeholders can explore scenarios, understand trade-offs, and build consensus through direct interaction with the planning tool.</p></li>
-<li><p><strong>Climate-smart conservation</strong>: Advanced connectivity features and flexible problem formulation enable us to design protected area networks that account for species movement, climate velocity, and future distribution shifts—essential for conservation effectiveness under climate change.</p></li>
-<li><p><strong>Multiple-use planning</strong>: Native support for zoning problems allows us to balance biodiversity conservation with economic activities, designing plans that are both ecologically effective and economically feasible.</p></li>
-<li><p><strong>Reproducible science</strong>: Perfect reproducibility and transparent mathematical formulation enable our work to be verified, replicated, and built upon by the broader conservation community.</p></li>
-<li><p><strong>Rapid innovation</strong>: As an actively developed R package, <a href="https://prioritizr.net"><em>prioritizr</em></a> continuously incorporates the latest advances in optimisation algorithms and conservation science, ensuring our planning methods remain at the cutting edge.</p></li>
-</ol>
-<p>These capabilities have enabled our team to deliver spatial planning solutions across diverse contexts—from small tropical islands (<a href="whereWeWork/Kosrae.html">Kosrae</a>, <a href="whereWeWork/Fiji.html">Fiji</a>) to entire ocean basins (<a href="whereWeWork/RedSea.html">Red Sea</a>, <a href="whereWeWork/WeddellSea.html">Weddell Sea</a>)—while maintaining scientific rigour and stakeholder engagement throughout the planning process.</p>
-<p>For researchers and practitioners seeking a conservation planning tool that combines mathematical rigour, practical speed, analytical flexibility, and stakeholder accessibility, <a href="https://prioritizr.net"><em>prioritizr</em></a> represents the current state-of-the-art in systematic conservation planning software.</p>
+<!-- ### Comparison with other conservation planning tools -->
+<!-- | Feature | prioritizr | Marxan | Zonation | CLUZ | -->
+<!-- |---------|-----------|---------|----------|------| -->
+<!-- | **Optimisation approach** | Exact (MILP) | Heuristic (simulated annealing) | Heuristic (greedy algorithm) | Integer programming | -->
+<!-- | **Guaranteed optimal solution** | Yes (or known gap) | No | No | Limited | -->
+<!-- | **Parameter tuning required** | No | Yes (extensive) | Moderate | Minimal | -->
+<!-- | **Solution reproducibility** | Perfect | Variable | Good | Good | -->
+<!-- | **Speed** | Seconds to minutes | Minutes to hours | Seconds to minutes | Minutes | -->
+<!-- | **Multiple objectives/zones** | Yes (native support) | Limited (Marxan with Zones) | Limited | Limited | -->
+<!-- | **Connectivity penalties** | Yes (flexible) | Yes (basic) | Yes (hierarchy-based) | No | -->
+<!-- | **Open source** | Yes (R) | Yes (C++) | No (commercial) | Yes (QGIS plugin) | -->
+<!-- | **Programmatic workflows** | Excellent | Limited | Limited | Limited | -->
+<!-- | **Integration with R ecosystem** | Native | Via external scripts | Limited | No | -->
+<!-- | **Maximum problem size** | Very large (>1M units)* | Large (~100K units) | Large (~100K units) | Medium (~50K units) | -->
+<!-- \* Performance depends on available solver; commercial solvers (Gurobi, CPLEX) handle larger problems faster than open-source alternatives -->
+<!-- ### Why _prioritizr_ underpins our work -->
+<!-- Our choice of [_prioritizr_](https://prioritizr.net) as the foundation for our spatial planning work, including [**_shinyplanr_**](shinyplanr.html), is driven by the need to deliver: -->
+<!-- 1. **Scientifically defensible plans**: The mathematical guarantee of optimality (or known gap) provides scientific rigour essential for plans that must withstand peer review, policy scrutiny, and legal challenges. -->
+<!-- 2. **Real-time stakeholder engagement**: Speed enables genuine participatory planning where stakeholders can explore scenarios, understand trade-offs, and build consensus through direct interaction with the planning tool. -->
+<!-- 3. **Climate-smart conservation**: Advanced connectivity features and flexible problem formulation enable us to design protected area networks that account for species movement, climate velocity, and future distribution shifts—essential for conservation effectiveness under climate change. -->
+<!-- 4. **Multiple-use planning**: Native support for zoning problems allows us to balance biodiversity conservation with economic activities, designing plans that are both ecologically effective and economically feasible. -->
+<!-- 5. **Reproducible science**: Perfect reproducibility and transparent mathematical formulation enable our work to be verified, replicated, and built upon by the broader conservation community. -->
+<!-- 6. **Rapid innovation**: As an actively developed R package, [_prioritizr_](https://prioritizr.net) continuously incorporates the latest advances in optimisation algorithms and conservation science, ensuring our planning methods remain at the cutting edge. -->
+<!-- These capabilities have enabled our team to deliver spatial planning solutions across diverse contexts—from small tropical islands ([Kosrae](whereWeWork/Kosrae.html), [Fiji](whereWeWork/Fiji.html)) to entire ocean basins ([Red Sea](whereWeWork/RedSea.html), [Weddell Sea](whereWeWork/WeddellSea.html))—while maintaining scientific rigour and stakeholder engagement throughout the planning process. -->
+<!-- For researchers and practitioners seeking a conservation planning tool that combines mathematical rigour, practical speed, analytical flexibility, and stakeholder accessibility, [_prioritizr_](https://prioritizr.net) represents the current state-of-the-art in systematic conservation planning software. -->
 
 
 </section>
@@ -809,7 +712,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Website Dr Jason D. Everett 2025</p>
+<p>© Website Dr Jason D. Everett 2026</p>
 </div>   
     <div class="nav-footer-center">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>

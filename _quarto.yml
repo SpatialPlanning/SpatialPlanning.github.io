@@ -35,9 +35,9 @@ website:
         
     # your social media handles
     right:
-      - icon: envelope
-        aria-label: email
-        href: "mailto:a.richardson1@uq.edu.au"
+      # - icon: envelope
+      #   aria-label: email
+      #   href: "mailto:a.richardson1@uq.edu.au"
       - icon: github
         href: https://github.com/SpatialPlanning
         target: _blank
@@ -45,7 +45,7 @@ website:
       
   page-footer:
     center: "This page is built with [Quarto](https://quarto.org/)."
-    left:  "&copy; Website Dr Jason D. Everett 2025"
+    left:  "&copy; Website Dr Jason D. Everett 2026"
     right: |
       <span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span>
 
