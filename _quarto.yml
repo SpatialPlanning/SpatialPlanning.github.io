@@ -20,20 +20,24 @@ website:
             href: whereWeWork/Fiji.qmd
           - text: Vanuatu
             href: whereWeWork/Vanuatu.qmd
-      - text: Planning Aspects
-        href: elements.qmd
-      - text: Other Tools
+      - text: Planning Approach
+        menu:
+          - text: Decision Support Tools
+            href: approach/prioritizr.qmd
+          - text: Research Focus
+            href: approach/elements.qmd
+      - text: Our Tools
         href: tools.qmd
-      - text: Publications
-        href: publications.qmd
       - text: Our Services
         href: services.qmd
+      - text: Publications
+        href: publications.qmd
         
     # your social media handles
     right:
-      - icon: envelope
-        aria-label: email
-        href: "mailto:a.richardson1@uq.edu.au"
+      # - icon: envelope
+      #   aria-label: email
+      #   href: "mailto:a.richardson1@uq.edu.au"
       - icon: github
         href: https://github.com/SpatialPlanning
         target: _blank
@@ -41,7 +45,7 @@ website:
       
   page-footer:
     center: "This page is built with [Quarto](https://quarto.org/)."
-    left:  "&copy; Website Dr Jason D. Everett 2025"
+    left:  "&copy; Website Dr Jason D. Everett 2026"
     right: |
       <span class="faux-block"><a href="https://github.com/SpatialPlanning/SpatialPlanning.github.io" target="_blank">View source on GitHub</a></span>
 
@@ -55,8 +59,8 @@ format:
     # theme: yeti
     css: styles.css
     toc: true
-    toc-depth: 3
-    toc-expand: 3
+    toc-depth: 5
+    toc-expand: 4
     toc-location: right
     code-copy: true
     code-overflow: wrap
