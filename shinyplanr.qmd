@@ -3,22 +3,22 @@ title: ""
 ---
 ## Real-time planning with _shinyplanr_
 
-<img src="images/shinyplanr.png" style="float: right; margin-left: 10px; width: 200px">
+<a href="https://spatialplanning.github.io/shinyplanr/" target="blank"><img src="images/shinyplanr.png" style="float: right; margin-left: 10px; width: 200px"></a>
 
-The **_shinyplanr_** app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.
+The [**_shinyplanr_**](https://spatialplanning.github.io/shinyplanr/){target="blank"} app is a fast, flexible, and transparent web tool that helps countries deliver smarter spatial plans — for biodiversity, climate and people. It puts planning power directly into stakeholders’ hands, letting them test scenarios, explore trade-offs, and make decisions in real time.
 
-Built on robust science and the proven R language and _prioritizr_ engine, **_shinyplanr_** helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed.
+Built on robust science and the proven R language and _prioritizr_ engine, [**_shinyplanr_**](https://spatialplanning.github.io/shinyplanr/){target="blank"} helps overcome the delays and disconnects of traditional MSP. It’s user-friendly, fully customisable, and designed for all stakeholders — no prior spatial planning experience is needed.
 <br>
 <br>
 <br>
 
 ::: columns
-::: {.column width="15%"}
+::: {.column width="10%"}
 :::
-::: {.column width="70%"}
+::: {.column width="80%"}
 {{< video images/shinyplanr.mp4>}}
 :::
-::: {.column width="15%"}
+::: {.column width="10%"}
 :::
 :::
 <br>
@@ -40,5 +40,14 @@ Built on robust science and the proven R language and _prioritizr_ engine, **_sh
 
 **Rich functionality**: Built in R with prioritizr, **_shinyplanr_** offers all the power of Marxan — and then some.
 
-**Scalable and customisable**: From tiny areas such as [Kosrae](whereWeWork/Kosrae.html) in Federated States of Micronesia, to vast regions such as the [Weddell Sea](whereWeWork/WeddellSea.html), shinyplanr adapts to your geography, language, and data.
+**Scalable and customisable**: From tiny areas such as [Kosrae](whereWeWork/Kosrae.html) in Federated States of Micronesia, to vast regions such as the [Weddell Sea](whereWeWork/WeddellSea.html), **_shinyplanr_** adapts to your geography, language, and data.
 
+::: callout-tip
+## Deploying _shinyplanr_ for your region
+
+**_shinyplanr_** is fully transferable — a single codebase that can be customised and deployed to any geography using a combination of global and local datasets. We work closely with partners to co-design planning solutions that support biodiversity conservation, restoration, and sustainable use under a changing climate, continually refining the tool based on user needs and emerging science.
+
+While we typically collaborate directly with governments, agencies, and NGOs to deploy and tailor **_shinyplanr_** for specific regions, the code is fully open-source and available for groups who wish to build and host their own instance. Whether you are looking for a collaborative partnership or want to deploy independently, we welcome you to get in touch.
+
+The **_shinyplanr_** source code is available on [GitHub](https://github.com/SpatialPlanning/shinyplanr){target="blank"}. If you would like to work with us to deploy it for your region, please [contact us](index.qmd).
+:::
